@@ -1,0 +1,97 @@
+---
+title: "OG GoaT File Comparison"
+author: "Anu"
+date: "`r Sys.Date()`"
+output: html_notebook
+---
+
+## Input Files Required
+This comparison script requires the following input files to be present in the same directory as this notebook:
+
+1. `OG_species_goat_final.csv` → latest GoaT export  
+2. `older_version.csv` → previous version for comparison  
+
+Please ensure both files are in the current working directory before running the notebook.
+
+# Step 1: Read both files (skip first 7 metadata rows)
+```{r}
+new_data <- read.csv(
+  "OG_species_goat_final.csv",
+  skip = 7,
+  stringsAsFactors = FALSE
+)
+
+old_data <- read.csv(
+  "older_version.csv",
+  skip = 7,
+  stringsAsFactors = FALSE
+)
+
+dim(new_data)
+dim(old_data)
+```
+
+# Step 2: Check column names
+```{r}
+colnames(new_data)
+colnames(old_data)
+```
+
+# Step 3: Compare row counts
+```{r}
+cat("New file rows:", nrow(new_data), "\n")
+cat("Old file rows:", nrow(old_data), "\n")
+cat("Difference:", nrow(new_data) - nrow(old_data), "\n")
+```
+
+# Step 4: Find newly added species
+```{r}
+new_species <- setdiff(
+  new_data$species,
+  old_data$species
+)
+
+new_species
+length(new_species)
+```
+
+# Step 5: Find removed species
+```{r}
+removed_species <- setdiff(
+  old_data$species,
+  new_data$species
+)
+
+removed_species
+length(removed_species)
+```
+
+# Step 6: Compare sequencing status changes
+```{r}
+library(dplyr)
+
+status_changes <- old_data %>%
+  select(species, sequencing_status_old = sequencing_status) %>%
+  inner_join(
+    new_data %>%
+      select(species, sequencing_status_new = sequencing_status),
+    by = "species"
+  ) %>%
+  filter(sequencing_status_old != sequencing_status_new)
+
+status_changes
+```
+
+# Step 7: Compare target list status changes
+```{r}
+target_changes <- old_data %>%
+  select(species, old_target = target_list_status) %>%
+  inner_join(
+    new_data %>%
+      select(species, new_target = target_list_status),
+    by = "species"
+  ) %>%
+  filter(old_target != new_target)
+
+target_changes
+```
