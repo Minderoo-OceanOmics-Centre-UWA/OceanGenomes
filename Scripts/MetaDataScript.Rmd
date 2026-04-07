@@ -1,0 +1,90 @@
+---
+title: "OG GoaT File Builder"
+author: "Anushka S. Dissnaayaka M."
+date: "2026-03-31"
+output: html_notebook
+---
+
+## Script Information
+- **Created by:** Anushka S. Dissnaayaka M.  
+- **Created date:** 2026-03-31  
+- **Last updated:** `r Sys.Date()`  
+- **Purpose:** Build GoaT-compatible TSV and CSV files for Ocean Genomes species export
+
+# Step 1: Read the exported CSV from DBeaver
+```{r}
+species_data <- read.csv(
+  "species_goat_compatible.csv",
+  stringsAsFactors = FALSE
+)
+
+head(species_data)
+```
+
+# Step 2: Create the 7 required header lines
+```{r}
+header_lines <- c(
+  "# project_name\tOG",
+  "# subproject_name\t",
+  "# primary_contact\tShannon Corrigan",
+  "# primary_contact_institution\tOcean Genomes Minderoo Ocean Omics Centre at University of Western Australia Crawley Perth Australia",
+  "# primary_contact_email\toceangenomes@uwa.edu.au",
+  paste0("# date_of_update\t", format(Sys.Date(), "%Y-%m-%d")),
+  "# schema_version\tebp_species_goat_2.6"
+)
+
+header_lines
+```
+
+# Step 3: Create the 8-column header row
+```{r}
+column_header <- paste(colnames(species_data), collapse = "\t")
+
+column_header
+```
+
+# Step 4: Convert all data rows into tab-separated lines
+```{r}
+data_lines <- apply(species_data, 1, function(x) {
+  paste(x, collapse = "\t")
+})
+
+head(data_lines)
+```
+
+# Step 5: Combine header + column names + data
+```{r}
+final_output <- c(header_lines, column_header, data_lines)
+
+head(final_output, 10)
+```
+
+# Step 6: Create output folder
+```{r}
+if (!dir.exists("output")) {
+  dir.create("output")
+}
+
+dir.exists("output")
+```
+
+# Step 7: Save GoaT-ready TSV file (main final file)
+```{r}
+writeLines(
+  final_output,
+  "output/OG_species_goat.tsv"
+)
+```
+
+# Step 8: Save a normal CSV for Excel review
+```{r}
+# Step 8: Save full GoaT file as CSV with 7 header rows
+writeLines(
+  gsub("\t", ",", final_output),
+  "output/OG_species_goat.csv"
+)
+```
+# Step 9: Check saved files
+```{r}
+list.files("output")
+```
