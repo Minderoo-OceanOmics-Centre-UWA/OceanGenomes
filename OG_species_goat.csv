@@ -1,10 +1,10 @@
-# project_name,OG,,,,,,
-# subproject_name,,,,,,,
-# primary_contact,Shannon Corrigan,,,,,,
-# primary_contact_institution,Ocean Genomes Minderoo Ocean Omics Centre at University of Western Australia Crawley Perth Australia,,,,,,
-# primary_contact_email,oceangenomes@uwa.edu.au,,,,,,
-# date_of_update,31/03/2026,,,,,,
-# schema_version,ebp_species_goat_2.6,,,,,,
+# project_name,OG
+# subproject_name,
+# primary_contact,Shannon Corrigan
+# primary_contact_institution,Ocean Genomes Minderoo Ocean Omics Centre at University of Western Australia Crawley Perth Australia
+# primary_contact_email,oceangenomes@uwa.edu.au
+# date_of_update,2026-04-07
+# schema_version,ebp_species_goat_2.6
 ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,synonym,publication_id
 753643,Acanthurus achilles,-,Acanthuridae,long_list,-,-,-
 1962508,Acanthurus albimento,-,Acanthuridae,long_list,-,-,-
@@ -30,7 +30,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 175430,Acanthurus mata,-,Acanthuridae,long_list,-,-,-
 -,Acanthurus mindorensis,-,Acanthuridae,long_list,-,Acanthurus mindorensis,-
 927808,Acanthurus monroviae,-,Acanthuridae,long_list,-,-,-
-175431,Acanthurus nigricans,-,Acanthuridae,long_list,data_generation,-,-
+175431,Acanthurus nigricans,-,Acanthuridae,long_list,in_assembly,-,-
 753644,Acanthurus nigricauda,-,Acanthuridae,long_list,-,-,-
 12913,Acanthurus nigrofuscus,-,Acanthuridae,long_list,-,-,-
 175432,Acanthurus nigroris,-,Acanthuridae,long_list,-,-,-
@@ -74,9 +74,9 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 238065,Naso thynnoides,-,Acanthuridae,long_list,-,-,-
 238066,Naso tonganus,-,Acanthuridae,long_list,-,-,-
 175443,Naso tuberosus,-,Acanthuridae,long_list,-,-,-
-175444,Naso unicornis,-,Acanthuridae,long_list,-,-,-
+175444,Naso unicornis,-,Acanthuridae,long_list,data_generation,-,-
 238067,Naso vlamingii,-,Acanthuridae,long_list,-,-,-
-75030,Paracanthurus hepatus,-,Acanthuridae,long_list,data_generation,-,-
+75030,Paracanthurus hepatus,-,Acanthuridae,long_list,in_assembly,-,-
 1316015,Prionurus biafraensis,-,Acanthuridae,long_list,-,-,-
 1608693,Prionurus chrysurus,-,Acanthuridae,long_list,-,-,-
 175437,Prionurus laticlavius,-,Acanthuridae,long_list,-,-,-
@@ -285,7 +285,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Alepocephalus blanfordii,-,Alepocephalidae,long_list,-,Alepocephalus blanfordii,-
 -,Alepocephalus dentifer,-,Alepocephalidae,long_list,-,Alepocephalus dentifer,-
 -,Alepocephalus fundulus,-,Alepocephalidae,long_list,-,Alepocephalus fundulus,-
-492026,Alepocephalus longiceps,-,Alepocephalidae,long_list,-,-,-
+492026,Alepocephalus longiceps,-,Alepocephalidae,long_list,data_generation,-,-
 -,Alepocephalus longirostris,-,Alepocephalidae,long_list,-,Alepocephalus longirostris,-
 -,Alepocephalus melas,-,Alepocephalidae,long_list,-,Alepocephalus melas,-
 1137106,Alepocephalus owstoni,-,Alepocephalidae,long_list,-,-,-
@@ -316,7 +316,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Bathytroctes elegans,-,Alepocephalidae,long_list,-,Bathytroctes elegans,-
 -,Bathytroctes inspector,-,Alepocephalidae,long_list,-,Bathytroctes inspector,-
 -,Bathytroctes macrognathus,-,Alepocephalidae,long_list,-,Bathytroctes macrognathus,-
-492030,Bathytroctes macrolepis,-,Alepocephalidae,long_list,-,-,-
+492030,Bathytroctes macrolepis,-,Alepocephalidae,long_list,data_generation,-,-
 492031,Bathytroctes michaelsarsi,-,Alepocephalidae,long_list,-,-,-
 443633,Bathytroctes microlepis,-,Alepocephalidae,long_list,-,-,-
 -,Bathytroctes oligolepis,-,Alepocephalidae,long_list,-,Bathytroctes oligolepis,-
@@ -328,7 +328,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1916748,Conocara kreffti,-,Alepocephalidae,long_list,-,-,-
 492036,Conocara macropterum,-,Alepocephalidae,long_list,-,-,-
 -,Conocara microlepis,-,Alepocephalidae,long_list,-,Conocara microlepis,-
-492037,Conocara murrayi,-,Alepocephalidae,long_list,-,-,-
+492037,Conocara murrayi,-,Alepocephalidae,long_list,data_generation,-,-
 2052717,Conocara nigrum,-,Alepocephalidae,long_list,-,-,-
 -,Conocara paxtoni,-,Alepocephalidae,long_list,-,Conocara paxtoni,-
 1126216,Conocara salmoneum,-,Alepocephalidae,long_list,-,-,-
@@ -354,7 +354,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Narcetes wonderi,-,Alepocephalidae,long_list,-,Narcetes wonderi,-
 1986968,Photostylus pycnopterus,-,Alepocephalidae,long_list,-,-,-
 492047,Rinoctes nasutus,-,Alepocephalidae,long_list,-,-,-
-700664,Rouleina attrita,-,Alepocephalidae,long_list,-,-,-
+700664,Rouleina attrita,-,Alepocephalidae,long_list,data_generation,-,-
 -,Rouleina danae,-,Alepocephalidae,long_list,-,Rouleina danae,-
 -,Rouleina eucla,-,Alepocephalidae,long_list,-,Rouleina eucla,-
 -,Rouleina euryops,-,Alepocephalidae,long_list,-,Rouleina euryops,-
@@ -364,7 +364,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Rouleina nuda,-,Alepocephalidae,long_list,-,Rouleina nuda,-
 -,Rouleina squamilatera,-,Alepocephalidae,long_list,-,Rouleina squamilatera,-
 -,Rouleina watasei,-,Alepocephalidae,long_list,-,Rouleina watasei,-
-1916790,Talismania antillarum,-,Alepocephalidae,long_list,-,-,-
+1916790,Talismania antillarum,-,Alepocephalidae,long_list,data_generation,-,-
 -,Talismania aphos,-,Alepocephalidae,long_list,-,Talismania aphos,-
 492049,Talismania bifurcata,-,Alepocephalidae,long_list,-,-,-
 -,Talismania brachycephala,-,Alepocephalidae,long_list,-,Talismania brachycephala,-
@@ -1039,7 +1039,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1680620,Vincentia conspersa,-,Apogonidae,long_list,-,-,-
 -,Vincentia macrocauda,-,Apogonidae,long_list,-,Vincentia macrocauda,-
 1431514,Vincentia novaehollandiae,-,Apogonidae,long_list,-,-,-
--,Vincentia punctata,-,Apogonidae,long_list,data_generation,Vincentia punctata,-
+-,Vincentia punctata,-,Apogonidae,long_list,in_assembly,Vincentia punctata,-
 2608480,Xeniamia atrithorax,-,Apogonidae,long_list,-,-,-
 638297,Yarica hyalosoma,-,Apogonidae,long_list,-,-,-
 638296,Zapogon evermanni,-,Apogonidae,long_list,-,-,-
@@ -1050,7 +1050,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 316352,Zoramia leptacantha,-,Apogonidae,long_list,-,-,-
 -,Zoramia perlita,-,Apogonidae,long_list,-,Zoramia perlita,-
 1399765,Zoramia viridiventer,-,Apogonidae,long_list,-,-,-
-1240559,Anoplocapros amygdaloides,-,Aracanidae,long_list,-,-,-
+1240559,Anoplocapros amygdaloides,-,Aracanidae,long_list,data_generation,-,-
 303734,Anoplocapros inermis,-,Aracanidae,long_list,-,-,-
 388627,Anoplocapros lenticularis,-,Aracanidae,long_list,-,-,-
 -,Anoplocapros robustus,-,Aracanidae,long_list,-,Anoplocapros robustus,-
@@ -1060,7 +1060,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1240568,Capropygia unistriata,-,Aracanidae,long_list,-,-,-
 384597,Kentrocapros aculeatus,-,Aracanidae,long_list,-,-,-
 -,Kentrocapros eco,-,Aracanidae,long_list,-,Kentrocapros eco,-
-2057070,Kentrocapros flavofasciatus,-,Aracanidae,long_list,-,-,-
+2057070,Kentrocapros flavofasciatus,-,Aracanidae,long_list,data_generation,-,-
 1240560,Kentrocapros rosapinto,-,Aracanidae,long_list,-,-,-
 -,Kentrocapros spilonota,-,Aracanidae,long_list,-,Kentrocapros spilonota,-
 -,Polyplacapros tyleri,-,Aracanidae,long_list,-,Polyplacapros tyleri,-
@@ -1194,7 +1194,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Pavoraja arenaria,-,Arhynchobatidae,long_list,-,Pavoraja arenaria,-
 -,Pavoraja mosaica,-,Arhynchobatidae,long_list,-,Pavoraja mosaica,-
 1072481,Pavoraja nitida,-,Arhynchobatidae,long_list,-,-,-
--,Pavoraja pseudonitida,-,Arhynchobatidae,long_list,-,Pavoraja pseudonitida,-
+-,Pavoraja pseudonitida,-,Arhynchobatidae,long_list,data_generation,Pavoraja pseudonitida,-
 -,Pavoraja umbrosa,-,Arhynchobatidae,long_list,-,Pavoraja umbrosa,-
 -,Psammobatis bergi,-,Arhynchobatidae,long_list,-,Psammobatis bergi,-
 1104167,Psammobatis extenta,-,Arhynchobatidae,long_list,-,-,-
@@ -1321,7 +1321,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Ariomma melana,-,Ariommatidae,long_list,-,Ariomma melana,-
 -,Ariomma parini,-,Ariommatidae,long_list,-,Ariomma parini,-
 2996726,Ariomma regulus,-,Ariommatidae,long_list,-,-,-
-163129,Arripis georgiana,-,Arripidae,family_representative,insdc_open,-,-
+163129,Arripis georgiana,-,Arripidae,family_representative,in_assembly,-,-
 270544,Arripis trutta,-,Arripidae,long_list,-,-,-
 443679,Arripis truttacea,-,Arripidae,long_list,-,-,-
 1400642,Arripis xylabion,-,Arripidae,long_list,-,-,-
@@ -1364,7 +1364,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Pogonophryne ventrimaculata,-,Artedidraconidae,long_list,-,Pogonophryne ventrimaculata,-
 -,Ateleopus edentatus,-,Ateleopodidae,long_list,-,Ateleopus edentatus,-
 -,Ateleopus indicus,-,Ateleopodidae,long_list,-,Ateleopus indicus,-
-143306,Ateleopus japonicus,-,Ateleopodidae,long_list,-,-,-
+143306,Ateleopus japonicus,-,Ateleopodidae,long_list,data_generation,-,-
 990557,Ateleopus natalensis,-,Ateleopodidae,long_list,-,-,-
 630187,Ateleopus purpureus,-,Ateleopodidae,long_list,-,-,-
 630186,Ateleopus tanabensis,-,Ateleopodidae,long_list,-,-,-
@@ -1392,7 +1392,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2961586,Atherinomorus lineatus,-,Atherinidae,long_list,-,-,-
 1395011,Atherinomorus pinguis,-,Atherinidae,long_list,-,-,-
 1394997,Atherinomorus regina,-,Atherinidae,long_list,-,-,-
--,Atherinomorus sp.,-,Atherinidae,long_list,data_generation,-,-
+-,Atherinomorus sp.,-,Atherinidae,long_list,in_assembly,-,-
 94911,Atherinomorus stipes,-,Atherinidae,long_list,-,-,-
 753897,Atherinomorus vaigiensis,-,Atherinidae,long_list,-,-,-
 238741,Atherinops affinis,-,Atherinidae,long_list,-,-,-
@@ -1515,7 +1515,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Balistes rotundatus,-,Balistidae,long_list,-,Balistes rotundatus,-
 303687,Balistes vetula,-,Balistidae,long_list,-,-,-
 -,Balistes willughbeii,-,Balistidae,long_list,-,Balistes willughbeii,-
-303689,Balistoides conspicillum,-,Balistidae,long_list,-,-,-
+303689,Balistoides conspicillum,-,Balistidae,long_list,data_generation,-,-
 303705,Balistoides viridescens,-,Balistidae,long_list,-,-,-
 2067686,Canthidermis macrolepis,-,Balistidae,long_list,-,-,-
 303691,Canthidermis maculata,-,Balistidae,long_list,-,-,-
@@ -1527,7 +1527,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 392900,Melichthys vidua,-,Balistidae,long_list,in_assembly,-,-
 392902,Odonus niger,-,Balistidae,long_list,-,-,-
 392903,Pseudobalistes flavimarginatus,-,Balistidae,long_list,-,-,-
-303695,Pseudobalistes fuscus,-,Balistidae,long_list,-,-,-
+303695,Pseudobalistes fuscus,-,Balistidae,long_list,data_generation,-,-
 882191,Pseudobalistes naufragium,-,Balistidae,long_list,-,-,-
 1820597,Rhinecanthus abyssus,-,Balistidae,long_list,-,-,-
 245705,Rhinecanthus aculeatus,-,Balistidae,long_list,-,-,-
@@ -1539,7 +1539,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 480299,Sufflamen albicaudatum,-,Balistidae,long_list,-,-,-
 303704,Sufflamen bursa,-,Balistidae,long_list,-,-,-
 480300,Sufflamen chrysopterum,-,Balistidae,long_list,-,-,-
-181478,Sufflamen fraenatum,-,Balistidae,long_list,data_generation,-,-
+181478,Sufflamen fraenatum,-,Balistidae,long_list,in_assembly,-,-
 882189,Sufflamen verres,-,Balistidae,long_list,-,-,-
 303701,Xanthichthys auromarginatus,-,Balistidae,long_list,-,-,-
 1633482,Xanthichthys caeruleolineatus,-,Balistidae,long_list,-,-,-
@@ -1619,7 +1619,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 301822,Rathbunella hypoplecta,-,Bathymasteridae,long_list,-,-,-
 428030,Ronquilus jordani,-,Bathymasteridae,long_list,-,-,-
 172134,Bathysaurus ferox,-,Bathysauridae,long_list,-,-,-
-1126214,Bathysaurus mollis,-,Bathysauridae,long_list,-,-,-
+1126214,Bathysaurus mollis,-,Bathysauridae,long_list,data_generation,-,-
 1604603,Bathysauroides gigas,-,Bathysauroididae,long_list,-,-,-
 101189,Allenbatrachus grunniens,-,Batrachoididae,long_list,-,-,-
 -,Allenbatrachus meridionalis,-,Batrachoididae,long_list,-,Allenbatrachus meridionalis,-
@@ -1726,7 +1726,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 3040438,Strongylura urvillii,-,Belonidae,long_list,-,-,-
 129073,Tylosurus acus,-,Belonidae,long_list,-,-,-
 2067708,Tylosurus choram,-,Belonidae,long_list,-,-,-
-129077,Tylosurus crocodilus,-,Belonidae,long_list,data_generation,-,-
+129077,Tylosurus crocodilus,-,Belonidae,long_list,in_assembly,-,-
 -,Tylosurus fodiator,-,Belonidae,long_list,-,Tylosurus fodiator,-
 129079,Tylosurus gavialoides,-,Belonidae,long_list,-,-,-
 -,Tylosurus imperialis,-,Belonidae,long_list,-,Tylosurus imperialis,-
@@ -1746,7 +1746,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Bembras macrolepis,-,Bembridae,long_list,-,Bembras macrolepis,-
 1811504,Bembras megacephala,-,Bembridae,long_list,-,-,-
 -,Brachybembras aschemeieri,-,Bembridae,long_list,-,Brachybembras aschemeieri,-
-107241,Beryx decadactylus,-,Berycidae,long_list,data_generation,-,-
+107241,Beryx decadactylus,-,Berycidae,long_list,in_assembly,-,-
 182780,Beryx mollis,-,Berycidae,long_list,-,-,-
 88663,Beryx splendens,-,Berycidae,long_list,-,-,-
 166261,Centroberyx affinis,-,Berycidae,long_list,-,-,-
@@ -1893,7 +1893,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2100433,Ecsenius stigmatura,-,Blenniidae,long_list,-,-,-
 -,Ecsenius taeniatus,-,Blenniidae,long_list,-,Ecsenius taeniatus,-
 -,Ecsenius tessera,-,Blenniidae,long_list,-,Ecsenius tessera,-
--,Ecsenius tigris,-,Blenniidae,long_list,data_generation,Ecsenius tigris,-
+-,Ecsenius tigris,-,Blenniidae,long_list,in_assembly,Ecsenius tigris,-
 -,Ecsenius tricolor,-,Blenniidae,long_list,-,Ecsenius tricolor,-
 -,Ecsenius trilineatus,-,Blenniidae,long_list,-,Ecsenius trilineatus,-
 1405644,Ecsenius yaeyamaensis,-,Blenniidae,long_list,-,-,-
@@ -1985,7 +1985,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2081001,Meiacanthus abditus,-,Blenniidae,long_list,-,-,-
 2080995,Meiacanthus abruptus,-,Blenniidae,long_list,-,-,-
 -,Meiacanthus anema,-,Blenniidae,long_list,-,Meiacanthus anema,-
-1405650,Meiacanthus atrodorsalis,-,Blenniidae,long_list,sample_acquired,-,-
+1405650,Meiacanthus atrodorsalis,-,Blenniidae,long_list,data_generation,-,-
 2080996,Meiacanthus bundoon,-,Blenniidae,long_list,-,-,-
 2080997,Meiacanthus crinitus,-,Blenniidae,long_list,-,-,-
 2080998,Meiacanthus cyanopterus,-,Blenniidae,long_list,-,-,-
@@ -2372,7 +2372,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2920376,Brama pauciradiata,-,Bramidae,long_list,-,-,-
 -,Eumegistus brevorti,-,Bramidae,long_list,-,Eumegistus brevorti,-
 1219343,Eumegistus illustris,-,Bramidae,long_list,in_assembly,-,-
-1219345,Pteraclis aesticola,-,Bramidae,long_list,-,-,-
+1219345,Pteraclis aesticola,-,Bramidae,long_list,data_generation,-,-
 -,Pteraclis carolinus,-,Bramidae,long_list,-,Pteraclis carolinus,-
 2696631,Pteraclis velifera,-,Bramidae,long_list,-,-,-
 546534,Pterycombus brama,-,Bramidae,long_list,-,-,-
@@ -2610,7 +2610,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Ungusurculus sundaensis,-,Bythitidae,long_list,-,Ungusurculus sundaensis,-
 -,Ungusurculus williamsi,-,Bythitidae,long_list,-,Ungusurculus williamsi,-
 -,Zephyrichthys barryi,-,Bythitidae,long_list,-,Zephyrichthys barryi,-
-182665,Caesio caerulaurea,-,Caesionidae,long_list,-,-,-
+182665,Caesio caerulaurea,-,Caesionidae,long_list,data_generation,-,-
 119694,Caesio cuning,-,Caesionidae,long_list,-,-,-
 490250,Caesio lunaris,-,Caesionidae,long_list,-,-,-
 -,Caesio striata,-,Caesionidae,long_list,-,Caesio striata,-
@@ -2900,7 +2900,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2578258,Carangoides humerosus,-,Carangidae,long_list,-,-,-
 274471,Carangoides malabaricus,-,Carangidae,long_list,-,-,-
 1435198,Carangoides oblongus,-,Carangidae,long_list,-,-,-
-3040455,Carangoides orthogrammus,-,Carangidae,long_list,data_generation,-,-
+3040455,Carangoides orthogrammus,-,Carangidae,long_list,in_assembly,-,-
 179362,Carangoides otrynter,-,Carangidae,long_list,-,-,-
 3040453,Carangoides plagiotaenia,-,Carangidae,long_list,-,-,-
 626210,Carangoides praeustus,-,Carangidae,long_list,-,-,-
@@ -2915,13 +2915,13 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 173312,Caranx hippos,-,Carangidae,long_list,-,-,-
 376895,Caranx ignobilis,-,Carangidae,long_list,-,-,-
 75015,Caranx latus,-,Carangidae,long_list,-,-,-
-1156094,Caranx lugubris,-,Carangidae,long_list,data_generation,-,-
+1156094,Caranx lugubris,-,Carangidae,long_list,in_assembly,-,-
 181461,Caranx melampygus,-,Carangidae,long_list,-,-,-
 691748,Caranx papuensis,-,Carangidae,long_list,-,-,-
 173350,Caranx rhonchus,-,Carangidae,long_list,-,-,-
 173315,Caranx ruber,-,Carangidae,long_list,-,-,-
 2871679,Caranx senegallus,-,Carangidae,long_list,-,-,-
-173346,Caranx sexfasciatus,-,Carangidae,long_list,sample_acquired,-,-
+173346,Caranx sexfasciatus,-,Carangidae,long_list,data_generation,-,-
 990566,Caranx tille,-,Carangidae,long_list,-,-,-
 173314,Caranx vinctus,-,Carangidae,long_list,-,-,-
 173329,Chloroscombrus chrysurus,-,Carangidae,long_list,-,-,-
@@ -2959,12 +2959,12 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 372806,Pseudocaranx chilensis,-,Carangidae,long_list,-,-,-
 349646,Pseudocaranx dentex,-,Carangidae,long_list,-,-,-
 2582470,Pseudocaranx dinjerra,-,Carangidae,long_list,-,-,-
-2578334,Pseudocaranx georgianus,-,Carangidae,long_list,data_generation,-,-
+2578334,Pseudocaranx georgianus,-,Carangidae,long_list,in_assembly,-,-
 443715,Pseudocaranx wrighti,-,Carangidae,long_list,-,-,-
 173341,Scomberoides commersonnianus,-,Carangidae,long_list,-,-,-
 334379,Scomberoides lysan,-,Carangidae,long_list,-,-,-
 1218182,Scomberoides tala,-,Carangidae,long_list,-,-,-
-398266,Scomberoides tol,-,Carangidae,long_list,-,-,-
+398266,Scomberoides tol,-,Carangidae,long_list,data_generation,-,-
 197574,Selar boops,-,Carangidae,long_list,-,-,-
 146146,Selar crumenophthalmus,-,Carangidae,long_list,-,-,-
 173311,Selaroides leptolepis,-,Carangidae,long_list,-,-,-
@@ -3064,7 +3064,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Snyderidia canina,-,Carapidae,long_list,-,Snyderidia canina,-
 -,Tetragondacnus spilotus,-,Carapidae,long_list,-,Tetragondacnus spilotus,-
 303932,Carcharhinus acronotus,-,Carcharhinidae,long_list,-,-,-
-495832,Carcharhinus albimarginatus,-,Carcharhinidae,long_list,-,-,-
+495832,Carcharhinus albimarginatus,-,Carcharhinidae,long_list,data_generation,-,-
 303933,Carcharhinus altimus,-,Carcharhinidae,long_list,-,-,-
 443756,Carcharhinus amblyrhynchoides,-,Carcharhinidae,long_list,-,-,-
 263684,Carcharhinus amblyrhynchos,-,Carcharhinidae,long_list,-,-,-
@@ -3078,18 +3078,18 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 335035,Carcharhinus dussumieri,-,Carcharhinidae,long_list,-,-,-
 202609,Carcharhinus falciformis,-,Carcharhinidae,long_list,-,-,-
 443758,Carcharhinus fitzroyensis,-,Carcharhinidae,long_list,-,-,-
-671159,Carcharhinus galapagensis,-,Carcharhinidae,long_list,-,-,-
+671159,Carcharhinus galapagensis,-,Carcharhinidae,long_list,data_generation,-,-
 -,Carcharhinus hemiodon,-,Carcharhinidae,long_list,-,Carcharhinus hemiodon,-
 3023860,Carcharhinus humani,-,Carcharhinidae,long_list,-,-,-
 303934,Carcharhinus isodon,-,Carcharhinidae,long_list,-,-,-
 1046239,Carcharhinus leiodon,-,Carcharhinidae,long_list,-,-,-
-46612,Carcharhinus leucas,-,Carcharhinidae,long_list,data_generation,-,-
+46612,Carcharhinus leucas,-,Carcharhinidae,long_list,in_assembly,-,-
 61865,Carcharhinus limbatus,-,Carcharhinidae,long_list,-,-,-
 302049,Carcharhinus longimanus,-,Carcharhinidae,long_list,-,-,-
 443759,Carcharhinus macloti,-,Carcharhinidae,long_list,-,-,-
 -,Carcharhinus macrops,-,Carcharhinidae,long_list,-,Carcharhinus macrops,-
 263686,Carcharhinus melanopterus,-,Carcharhinidae,long_list,-,-,-
-7807,Carcharhinus obscurus,-,Carcharhinidae,long_list,-,-,-
+7807,Carcharhinus obscurus,-,Carcharhinidae,long_list,data_generation,-,-
 -,Carcharhinus obsoletus,-,Carcharhinidae,long_list,-,Carcharhinus obsoletus,-
 303935,Carcharhinus perezi,-,Carcharhinidae,long_list,-,-,-
 303935,Carcharhinus perezii,-,Carcharhinidae,long_list,-,-,-
@@ -3437,12 +3437,12 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Chaetodon flavocoronatus,-,Chaetodontidae,long_list,-,Chaetodon flavocoronatus,-
 358767,Chaetodon fremblii,-,Chaetodontidae,long_list,-,-,-
 -,Chaetodon gardineri,-,Chaetodontidae,long_list,-,Chaetodon gardineri,-
-466118,Chaetodon guentheri,-,Chaetodontidae,long_list,data_generation,-,-
+466118,Chaetodon guentheri,-,Chaetodontidae,long_list,in_assembly,-,-
 39043,Chaetodon guttatissimus,-,Chaetodontidae,long_list,-,-,-
 466119,Chaetodon hoefleri,-,Chaetodontidae,long_list,-,-,-
 603439,Chaetodon humeralis,-,Chaetodontidae,long_list,-,-,-
 603440,Chaetodon interruptus,-,Chaetodontidae,long_list,-,-,-
-109691,Chaetodon kleinii,-,Chaetodontidae,long_list,sample_acquired,-,-
+109691,Chaetodon kleinii,-,Chaetodontidae,long_list,data_generation,-,-
 109692,Chaetodon larvatus,-,Chaetodontidae,long_list,-,-,-
 1702344,Chaetodon leucopleura,-,Chaetodontidae,long_list,-,-,-
 109693,Chaetodon lineolatus,-,Chaetodontidae,long_list,-,-,-
@@ -3455,7 +3455,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1643782,Chaetodon melapterus,-,Chaetodontidae,long_list,-,-,-
 39032,Chaetodon mertensii,-,Chaetodontidae,long_list,-,-,-
 109696,Chaetodon mesoleucos,-,Chaetodontidae,long_list,-,-,-
-109697,Chaetodon meyeri,-,Chaetodontidae,long_list,sample_acquired,-,-
+109697,Chaetodon meyeri,-,Chaetodontidae,long_list,data_generation,-,-
 39045,Chaetodon miliaris,-,Chaetodontidae,long_list,-,-,-
 1003703,Chaetodon mitratus,-,Chaetodontidae,long_list,-,-,-
 39044,Chaetodon multicinctus,-,Chaetodontidae,long_list,-,-,-
@@ -3499,21 +3499,21 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 466126,Chaetodon zanzibarensis,-,Chaetodontidae,long_list,-,-,-
 466127,Chelmon marginalis,-,Chaetodontidae,long_list,-,-,-
 603444,Chelmon muelleri,-,Chaetodontidae,long_list,-,-,-
-603445,Chelmonops curiosus,-,Chaetodontidae,long_list,data_generation,-,-
+603445,Chelmonops curiosus,-,Chaetodontidae,long_list,in_assembly,-,-
 466146,Chelmonops truncatus,-,Chaetodontidae,long_list,-,-,-
 109905,Chelmon rostratus,-,Chaetodontidae,long_list,-,-,-
 109907,Coradion altivelis,-,Chaetodontidae,long_list,-,-,-
 109922,Coradion chrysozonus,-,Chaetodontidae,long_list,-,-,-
 466128,Coradion melanopus,-,Chaetodontidae,long_list,-,-,-
 109909,Forcipiger flavissimus,-,Chaetodontidae,long_list,-,-,-
-466130,Forcipiger longirostris,-,Chaetodontidae,long_list,-,-,-
+466130,Forcipiger longirostris,-,Chaetodontidae,long_list,data_generation,-,-
 -,Forcipiger wanai,-,Chaetodontidae,long_list,-,Forcipiger wanai,-
 -,Hemitaurichthys multispinosus,-,Chaetodontidae,long_list,-,Hemitaurichthys multispinosus,-
 109914,Hemitaurichthys polylepis,-,Chaetodontidae,long_list,-,-,-
 603446,Hemitaurichthys thompsoni,-,Chaetodontidae,long_list,-,-,-
 109924,Hemitaurichthys zoster,-,Chaetodontidae,long_list,-,-,-
 109917,Heniochus acuminatus,-,Chaetodontidae,long_list,-,-,-
-109925,Heniochus chrysostomus,-,Chaetodontidae,long_list,-,-,-
+109925,Heniochus chrysostomus,-,Chaetodontidae,long_list,data_generation,-,-
 215362,Heniochus diphreutes,-,Chaetodontidae,long_list,-,-,-
 1737030,Heniochus intermedius,-,Chaetodontidae,long_list,-,-,-
 466131,Heniochus monoceros,-,Chaetodontidae,long_list,-,-,-
@@ -3529,7 +3529,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Prognathodes carlhubbsi,-,Chaetodontidae,long_list,-,Prognathodes carlhubbsi,-
 -,Prognathodes dichrous,-,Chaetodontidae,long_list,-,Prognathodes dichrous,-
 744555,Prognathodes falcifer,-,Chaetodontidae,long_list,-,-,-
-2518598,Prognathodes geminus,-,Chaetodontidae,long_list,data_generation,-,-
+2518598,Prognathodes geminus,-,Chaetodontidae,long_list,in_assembly,-,-
 -,Prognathodes guezei,-,Chaetodontidae,long_list,-,Prognathodes guezei,-
 -,Prognathodes guyanensis,-,Chaetodontidae,long_list,-,Prognathodes guyanensis,-
 -,Prognathodes guyotensis,-,Chaetodontidae,long_list,-,Prognathodes guyotensis,-
@@ -3822,7 +3822,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Powellichthys ventriosus,-,Chlopsidae,long_list,-,Powellichthys ventriosus,-
 118149,Robinsia catherinae,-,Chlopsidae,long_list,-,-,-
 1604597,Xenoconger fryeri,-,Chlopsidae,long_list,-,-,-
-390685,Chlorophthalmus acutifrons,-,Chlorophthalmidae,long_list,-,-,-
+390685,Chlorophthalmus acutifrons,-,Chlorophthalmidae,long_list,data_generation,-,-
 143313,Chlorophthalmus agassizi,-,Chlorophthalmidae,long_list,-,-,-
 197544,Chlorophthalmus albatrossis,-,Chlorophthalmidae,long_list,-,-,-
 -,Chlorophthalmus atlanticus,-,Chlorophthalmidae,long_list,-,Chlorophthalmus atlanticus,-
@@ -3874,10 +3874,10 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1278958,Itycirrhitus wilhelmi,-,Cirrhitidae,long_list,-,-,-
 587057,Neocirrhites armatus,-,Cirrhitidae,long_list,-,-,-
 76916,Notocirrhitus splendens,-,Cirrhitidae,long_list,-,-,-
-587059,Oxycirrhites typus,-,Cirrhitidae,long_list,data_generation,-,-
+587059,Oxycirrhites typus,-,Cirrhitidae,long_list,in_assembly,-,-
 215373,Paracirrhites arcatus,-,Cirrhitidae,long_list,-,-,-
 -,Paracirrhites bicolor,-,Cirrhitidae,long_list,-,Paracirrhites bicolor,-
-100206,Paracirrhites forsteri,-,Cirrhitidae,long_list,-,-,-
+100206,Paracirrhites forsteri,-,Cirrhitidae,long_list,data_generation,-,-
 1068870,Paracirrhites hemistictus,-,Cirrhitidae,long_list,-,-,-
 -,Paracirrhites nisus,-,Cirrhitidae,long_list,-,Paracirrhites nisus,-
 -,Paracirrhites xanthus,-,Cirrhitidae,long_list,-,Paracirrhites xanthus,-
@@ -3976,7 +3976,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Springeratus polyporatus,-,Clinidae,long_list,-,Springeratus polyporatus,-
 1916802,Springeratus xanthosoma,-,Clinidae,long_list,-,-,-
 -,Sticharium clarkae,-,Clinidae,long_list,-,Sticharium clarkae,-
-57860,Sticharium dorsale,-,Clinidae,long_list,data_generation,-,-
+57860,Sticharium dorsale,-,Clinidae,long_list,in_assembly,-,-
 -,Xenopoclinus kochi,-,Clinidae,long_list,-,Xenopoclinus kochi,-
 -,Xenopoclinus leprosus,-,Clinidae,long_list,-,Xenopoclinus leprosus,-
 224703,Alosa aestivalis,-,Clupeidae,long_list,-,-,-
@@ -4119,7 +4119,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Coloconger meadi,-,Colocongridae,long_list,-,Coloconger meadi,-
 2488688,Coloconger raniceps,-,Colocongridae,long_list,-,-,-
 -,Coloconger saldanhai,-,Colocongridae,long_list,-,Coloconger saldanhai,-
-2488689,Coloconger scholesi,-,Colocongridae,long_list,-,-,-
+2488689,Coloconger scholesi,-,Colocongridae,long_list,data_generation,-,-
 445405,Bitia hydroides,-,Colubridae,long_list,-,-,-
 192586,Cantoria violacea,-,Colubridae,long_list,-,-,-
 46267,Cerberus rynchops,-,Colubridae,long_list,-,-,-
@@ -5429,7 +5429,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 459920,Platax boersii,-,Ephippidae,long_list,-,-,-
 75032,Platax orbicularis,-,Ephippidae,long_list,-,-,-
 586848,Platax pinnatus,-,Ephippidae,long_list,-,-,-
-334891,Platax teira,-,Ephippidae,long_list,-,-,-
+334891,Platax teira,-,Ephippidae,long_list,data_generation,-,-
 -,Proteracanthus sarissophorus,-,Ephippidae,long_list,-,Proteracanthus sarissophorus,-
 -,Rhinoprenes pentanemus,-,Ephippidae,long_list,-,Rhinoprenes pentanemus,-
 1003990,Tripterodon orbis,-,Ephippidae,long_list,-,-,-
@@ -5536,12 +5536,12 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 862655,Etmopterus sheikoi,-,Etmopteridae,long_list,-,-,-
 648166,Etmopterus spinax,-,Etmopteridae,long_list,-,-,-
 862656,Etmopterus splendidus,-,Etmopteridae,long_list,-,-,-
-496069,Etmopterus unicolor,-,Etmopteridae,long_list,-,-,-
+496069,Etmopterus unicolor,-,Etmopteridae,long_list,data_generation,-,-
 877504,Etmopterus viator,-,Etmopteridae,long_list,-,-,-
 -,Etmopterus villosus,-,Etmopteridae,long_list,-,Etmopterus villosus,-
 862839,Etmopterus virens,-,Etmopteridae,long_list,-,-,-
 862906,Trigonognathus kabeyai,-,Etmopteridae,long_list,-,-,-
--,Euclichthys microdorsalis,-,Euclichthyidae,long_list,-,Euclichthys microdorsalis,-
+-,Euclichthys microdorsalis,-,Euclichthyidae,long_list,data_generation,Euclichthys microdorsalis,-
 630726,Euclichthys polynemus,-,Euclichthyidae,long_list,-,-,-
 -,Euclichthys robertsi,-,Euclichthyidae,long_list,-,Euclichthys robertsi,-
 55117,Eurypharynx pelecanoides,-,Eurypharyngidae,long_list,-,-,-
@@ -5707,7 +5707,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 372798,Nesiarchus nasutus,-,Gempylidae,long_list,-,-,-
 399147,Paradiplospinus antarcticus,-,Gempylidae,long_list,-,-,-
 1090487,Paradiplospinus gracilis,-,Gempylidae,long_list,-,-,-
-349644,Promethichthys prometheus,-,Gempylidae,long_list,-,-,-
+349644,Promethichthys prometheus,-,Gempylidae,long_list,data_generation,-,-
 -,Rexea alisae,-,Gempylidae,long_list,-,Rexea alisae,-
 887133,Rexea antefurcata,-,Gempylidae,long_list,-,-,-
 1723714,Rexea bengalensis,-,Gempylidae,long_list,-,-,-
@@ -5771,7 +5771,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1750988,Gerres simillimus,-,Gerreidae,long_list,-,-,-
 1647156,Gerres subfasciatus,-,Gerreidae,long_list,-,-,-
 2578322,Parequula elongata,-,Gerreidae,long_list,-,-,-
-548269,Parequula melbournensis,-,Gerreidae,long_list,data_generation,-,-
+548269,Parequula melbournensis,-,Gerreidae,long_list,in_assembly,-,-
 495039,Pentaprion longimanus,-,Gerreidae,long_list,-,-,-
 1206948,Ulaema lefroyi,-,Gerreidae,long_list,-,-,-
 -,Gibberichthys latifrons,-,Gibberichthyidae,long_list,-,Gibberichthys latifrons,-
@@ -5800,7 +5800,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Rhynchactis leptonema,-,Gigantactinidae,long_list,-,Rhynchactis leptonema,-
 412649,Rhynchactis macrothrix,-,Gigantactinidae,long_list,-,-,-
 -,Rhynchactis microthrix,-,Gigantactinidae,long_list,-,Rhynchactis microthrix,-
-172116,Gigantura chuni,-,Giganturidae,long_list,-,-,-
+172116,Gigantura chuni,-,Giganturidae,long_list,data_generation,-,-
 172117,Gigantura indica,-,Giganturidae,long_list,-,-,-
 7801,Ginglymostoma cirratum,-,Ginglymostomatidae,long_list,-,-,-
 -,Ginglymostoma unami,-,Ginglymostomatidae,long_list,-,Ginglymostoma unami,-
@@ -5815,7 +5815,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Glareola ocularis,-,Glareolidae,long_list,-,Glareola ocularis,-
 43316,Glareola pratincola,-,Glareolidae,long_list,-,-,-
 443781,Glaucosoma buergeri,-,Glaucosomatidae,long_list,-,-,-
-443782,Glaucosoma hebraicum,-,Glaucosomatidae,long_list,data_generation,-,-
+443782,Glaucosoma hebraicum,-,Glaucosomatidae,long_list,in_assembly,-,-
 443783,Glaucosoma magnificum,-,Glaucosomatidae,long_list,-,-,-
 443784,Glaucosoma scapulare,-,Glaucosomatidae,long_list,-,-,-
 417950,Glaucostegus cemiculus,-,Glaucostegidae,long_list,-,-,-
@@ -5842,7 +5842,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Alabes gibbosa,-,Gobiesocidae,long_list,-,Alabes gibbosa,-
 1930305,Alabes hoesei,-,Gobiesocidae,long_list,-,-,-
 -,Alabes obtusirostris,-,Gobiesocidae,long_list,-,Alabes obtusirostris,-
--,Alabes occidentalis,-,Gobiesocidae,long_list,data_generation,Alabes occidentalis,-
+-,Alabes occidentalis,-,Gobiesocidae,long_list,in_assembly,Alabes occidentalis,-
 2833754,Alabes parvula,-,Gobiesocidae,long_list,-,-,-
 1930306,Alabes scotti,-,Gobiesocidae,long_list,-,-,-
 -,Alabes springeri,-,Gobiesocidae,long_list,-,Alabes springeri,-
@@ -5872,7 +5872,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Briggsia hastingsi,-,Gobiesocidae,long_list,-,Briggsia hastingsi,-
 990974,Chorisochismus dentex,-,Gobiesocidae,long_list,-,-,-
 2740761,Cochleoceps bassensis,-,Gobiesocidae,long_list,-,-,-
--,Cochleoceps bicolor,-,Gobiesocidae,long_list,sample_acquired,Cochleoceps bicolor,-
+-,Cochleoceps bicolor,-,Gobiesocidae,long_list,in_assembly,Cochleoceps bicolor,-
 1986072,Cochleoceps orientalis,-,Gobiesocidae,long_list,-,-,-
 2740755,Cochleoceps spatula,-,Gobiesocidae,long_list,data_generation,-,-
 2740762,Cochleoceps viridis,-,Gobiesocidae,long_list,-,-,-
@@ -5971,7 +5971,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Pherallodiscus varius,-,Gobiesocidae,long_list,-,Pherallodiscus varius,-
 1772093,Pherallodus indicus,-,Gobiesocidae,long_list,-,-,-
 -,Pherallodus smithi,-,Gobiesocidae,long_list,-,Pherallodus smithi,-
-2740778,Posidonichthys hutchinsi,-,Gobiesocidae,long_list,sample_acquired,-,-
+2740778,Posidonichthys hutchinsi,-,Gobiesocidae,long_list,data_generation,-,-
 -,Propherallodus briggsi,-,Gobiesocidae,long_list,-,Propherallodus briggsi,-
 -,Propherallodus longipterus,-,Gobiesocidae,long_list,-,Propherallodus longipterus,-
 1930301,Protogobiesox asymmetricus,-,Gobiesocidae,long_list,-,-,-
@@ -6039,7 +6039,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 508005,Acentrogobius viganensis,-,Gobiidae,long_list,-,-,-
 -,Acentrogobius violarisi,-,Gobiidae,long_list,-,Acentrogobius violarisi,-
 1765757,Acentrogobius virgatulus,-,Gobiidae,long_list,-,-,-
-508006,Acentrogobius viridipunctatus,-,Gobiidae,long_list,sample_acquired,-,-
+508006,Acentrogobius viridipunctatus,-,Gobiidae,long_list,data_generation,-,-
 -,Afurcagobius suppositus,-,Gobiidae,long_list,-,Afurcagobius suppositus,-
 -,Akko brevis,-,Gobiidae,long_list,-,Akko brevis,-
 -,Akko dionaea,-,Gobiidae,long_list,-,Akko dionaea,-
@@ -6967,7 +6967,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1776237,Nesogobius hinsbyi,-,Gobiidae,long_list,-,-,-
 1776238,Nesogobius maccullochi,-,Gobiidae,long_list,-,-,-
 1776239,Nesogobius pulchellus,-,Gobiidae,long_list,-,-,-
--,Nesogobius sp. `groove cheek`,-,Gobiidae,long_list,sample_acquired,-,-
+-,Nesogobius sp. `groove cheek`,-,Gobiidae,long_list,data_generation,-,-
 1776240,Nesogobius tigrinus,-,Gobiidae,long_list,-,-,-
 -,Obliquogobius cirrifer,-,Gobiidae,long_list,-,Obliquogobius cirrifer,-
 1649254,Obliquogobius cometes,-,Gobiidae,long_list,-,-,-
@@ -7578,7 +7578,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2578301,Margrethia valentinae,-,Gonostomatidae,long_list,-,-,-
 721938,Sigmops bathyphilus,-,Gonostomatidae,long_list,-,-,-
 91969,Sigmops ebelingi,-,Gonostomatidae,long_list,-,-,-
-91970,Sigmops elongatus,-,Gonostomatidae,long_list,-,-,-
+91970,Sigmops elongatus,-,Gonostomatidae,long_list,data_generation,-,-
 48457,Sigmops gracilis,-,Gonostomatidae,long_list,-,-,-
 91971,Sigmops longipinnis,-,Gonostomatidae,long_list,-,-,-
 882892,Triplophos hemingi,-,Gonostomatidae,long_list,-,-,-
@@ -7698,7 +7698,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1699540,Plectorhinchus caeruleonothus,-,Haemulidae,long_list,-,-,-
 -,Plectorhinchus centurio,-,Haemulidae,long_list,-,Plectorhinchus centurio,-
 -,Plectorhinchus ceylonensis,-,Haemulidae,long_list,-,Plectorhinchus ceylonensis,-
-531329,Plectorhinchus chaetodonoides,-,Haemulidae,long_list,-,-,-
+531329,Plectorhinchus chaetodonoides,-,Haemulidae,long_list,data_generation,-,-
 396792,Plectorhinchus chrysotaenia,-,Haemulidae,long_list,-,-,-
 1003780,Plectorhinchus chubbi,-,Haemulidae,long_list,-,-,-
 360509,Plectorhinchus cinctus,-,Haemulidae,long_list,-,-,-
@@ -8013,7 +8013,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Pristilepis oligolepis,-,Holocentridae,long_list,-,Pristilepis oligolepis,-
 -,Sargocentron borodinoensis,-,Holocentridae,long_list,-,Sargocentron borodinoensis,-
 2024619,Sargocentron bullisi,-,Holocentridae,long_list,-,-,-
-88714,Sargocentron caudimaculatum,-,Holocentridae,long_list,-,-,-
+88714,Sargocentron caudimaculatum,-,Holocentridae,long_list,data_generation,-,-
 490282,Sargocentron cornutum,-,Holocentridae,long_list,-,-,-
 94926,Sargocentron coruscum,-,Holocentridae,long_list,-,-,-
 47709,Sargocentron diadema,-,Holocentridae,long_list,-,-,-
@@ -8049,7 +8049,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 990594,Hoplichthys acanthopleurus,-,Hoplichthyidae,long_list,-,-,-
 274740,Hoplichthys citrinus,-,Hoplichthyidae,long_list,-,-,-
 2597798,Hoplichthys fasciatus,-,Hoplichthyidae,long_list,-,-,-
-2578291,Hoplichthys filamentosus,-,Hoplichthyidae,long_list,-,-,-
+2578291,Hoplichthys filamentosus,-,Hoplichthyidae,long_list,data_generation,-,-
 270558,Hoplichthys gilberti,-,Hoplichthyidae,long_list,-,-,-
 -,Hoplichthys gregoryi,-,Hoplichthyidae,long_list,-,Hoplichthys gregoryi,-
 2980651,Hoplichthys haswelli,-,Hoplichthyidae,long_list,-,-,-
@@ -8272,7 +8272,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1917011,Bodianus neopercularis,-,Labridae,long_list,-,-,-
 -,Bodianus opercularis,-,Labridae,long_list,-,Bodianus opercularis,-
 626239,Bodianus oxycephalus,-,Labridae,long_list,-,-,-
--,Bodianus paraleucosticticus,-,Labridae,long_list,data_generation,Bodianus paraleucosticticus,-
+-,Bodianus paraleucosticticus,-,Labridae,long_list,in_assembly,Bodianus paraleucosticticus,-
 398265,Bodianus perditio,-,Labridae,long_list,-,-,-
 -,Bodianus prognathus,-,Labridae,long_list,-,Bodianus prognathus,-
 586784,Bodianus pulchellus,-,Labridae,long_list,-,-,-
@@ -8319,7 +8319,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 91745,Choerodon oligacanthus,-,Labridae,long_list,-,-,-
 -,Choerodon paynei,-,Labridae,long_list,-,Choerodon paynei,-
 193512,Choerodon robustus,-,Labridae,long_list,-,-,-
-443688,Choerodon rubescens,-,Labridae,long_list,data_generation,-,-
+443688,Choerodon rubescens,-,Labridae,long_list,in_assembly,-,-
 241275,Choerodon schoenleinii,-,Labridae,long_list,-,-,-
 -,Choerodon skaiopygmaeus,-,Labridae,long_list,-,Choerodon skaiopygmaeus,-
 1579772,Choerodon sugillatum,-,Labridae,long_list,-,-,-
@@ -8375,7 +8375,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2690367,Cirrhilabrus pylei,-,Labridae,long_list,-,-,-
 -,Cirrhilabrus randalli,-,Labridae,long_list,-,Cirrhilabrus randalli,-
 -,Cirrhilabrus rhomboidalis,-,Labridae,long_list,-,Cirrhilabrus rhomboidalis,-
-1856566,Cirrhilabrus roseafascia,-,Labridae,long_list,data_generation,-,-
+1856566,Cirrhilabrus roseafascia,-,Labridae,long_list,in_assembly,-,-
 1917086,Cirrhilabrus rubeus,-,Labridae,long_list,-,-,-
 586803,Cirrhilabrus rubrimarginatus,-,Labridae,long_list,-,-,-
 2496090,Cirrhilabrus rubripinnis,-,Labridae,long_list,-,-,-
@@ -8386,7 +8386,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 586805,Cirrhilabrus scottorum,-,Labridae,long_list,-,-,-
 -,Cirrhilabrus shutmani,-,Labridae,long_list,-,Cirrhilabrus shutmani,-
 2967256,Cirrhilabrus solorensis,-,Labridae,long_list,-,-,-
-1856570,Cirrhilabrus squirei,-,Labridae,long_list,-,-,-
+1856570,Cirrhilabrus squirei,-,Labridae,long_list,data_generation,-,-
 242810,Cirrhilabrus temminckii,-,Labridae,long_list,-,-,-
 -,Cirrhilabrus tonozukai,-,Labridae,long_list,-,Cirrhilabrus tonozukai,-
 2599604,Cirrhilabrus wakanda,-,Labridae,long_list,-,-,-
@@ -8397,7 +8397,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 241279,Clepticus parrae,-,Labridae,long_list,-,-,-
 -,Conniella apterygia,-,Labridae,long_list,-,Conniella apterygia,-
 663234,Coris atlantica,-,Labridae,long_list,-,-,-
-1182148,Coris auricularis,-,Labridae,long_list,data_generation,-,-
+1182148,Coris auricularis,-,Labridae,long_list,in_assembly,-,-
 317486,Coris aurilineata,-,Labridae,long_list,-,-,-
 241280,Coris aygula,-,Labridae,long_list,-,-,-
 -,Coris ballieui,-,Labridae,long_list,-,Coris ballieui,-
@@ -8441,7 +8441,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 242812,Eupetrichthys angustipes,-,Labridae,long_list,-,-,-
 -,Frontilabrus caeruleus,-,Labridae,long_list,-,Frontilabrus caeruleus,-
 239037,Gomphosus caeruleus,-,Labridae,long_list,-,-,-
-8249,Gomphosus varius,-,Labridae,long_list,-,-,-
+8249,Gomphosus varius,-,Labridae,long_list,data_generation,-,-
 1182150,Halichoeres adustus,-,Labridae,long_list,-,-,-
 1984841,Halichoeres aestuaricola,-,Labridae,long_list,-,-,-
 241290,Halichoeres argus,-,Labridae,long_list,-,-,-
@@ -8527,7 +8527,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 556051,Halichoeres zeylonicus,-,Labridae,long_list,-,-,-
 -,Halichoeres zulu,-,Labridae,long_list,-,Halichoeres zulu,-
 290114,Hemigymnus fasciatus,-,Labridae,long_list,-,-,-
-241303,Hemigymnus melapterus,-,Labridae,long_list,-,-,-
+241303,Hemigymnus melapterus,-,Labridae,long_list,data_generation,-,-
 2301321,Hemigymnus sexfasciatus,-,Labridae,long_list,-,-,-
 317482,Hologymnosus annulatus,-,Labridae,long_list,-,-,-
 241499,Hologymnosus doliatus,-,Labridae,long_list,-,-,-
@@ -8555,9 +8555,9 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1517477,Iniistius twistii,-,Labridae,long_list,-,-,-
 1984843,Iniistius umbrilatus,-,Labridae,long_list,-,-,-
 1055096,Iniistius verrens,-,Labridae,long_list,-,-,-
-241306,Labrichthys unilineatus,-,Labridae,long_list,-,-,-
+241306,Labrichthys unilineatus,-,Labridae,long_list,data_generation,-,-
 241308,Labroides bicolor,-,Labridae,long_list,-,-,-
-241309,Labroides dimidiatus,-,Labridae,long_list,-,-,-
+241309,Labroides dimidiatus,-,Labridae,long_list,data_generation,-,-
 498261,Labroides pectoralis,-,Labridae,long_list,-,-,-
 398665,Labroides phthirophagus,-,Labridae,long_list,-,-,-
 241310,Labroides rubrolabiatus,-,Labridae,long_list,-,-,-
@@ -8617,7 +8617,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 435143,Oxycheilinus digramma,-,Labridae,long_list,-,-,-
 -,Oxycheilinus lineatus,-,Labridae,long_list,-,Oxycheilinus lineatus,-
 -,Oxycheilinus mentalis,-,Labridae,long_list,-,Oxycheilinus mentalis,-
--,Oxycheilinus nigromarginatus,-,Labridae,long_list,sample_acquired,Oxycheilinus nigromarginatus,-
+-,Oxycheilinus nigromarginatus,-,Labridae,long_list,data_generation,Oxycheilinus nigromarginatus,-
 1522409,Oxycheilinus orientalis,-,Labridae,long_list,-,-,-
 1895013,Oxycheilinus samurai,-,Labridae,long_list,-,-,-
 241329,Oxycheilinus unifasciatus,-,Labridae,long_list,data_generation,-,-
@@ -8651,7 +8651,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2986116,Pseudocheilinops ataenia,-,Labridae,long_list,-,-,-
 -,Pseudocheilinus citrinus,-,Labridae,long_list,-,Pseudocheilinus citrinus,-
 -,Pseudocheilinus dispilus,-,Labridae,long_list,-,Pseudocheilinus dispilus,-
-586857,Pseudocheilinus evanidus,-,Labridae,long_list,sample_acquired,-,-
+586857,Pseudocheilinus evanidus,-,Labridae,long_list,data_generation,-,-
 586858,Pseudocheilinus hexataenia,-,Labridae,long_list,-,-,-
 997982,Pseudocheilinus ocellatus,-,Labridae,long_list,-,-,-
 241335,Pseudocheilinus octotaenia,-,Labridae,long_list,-,-,-
@@ -8686,7 +8686,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2986103,Pseudojuloides splendens,-,Labridae,long_list,-,-,-
 1500732,Pseudojuloides xanthomos,-,Labridae,long_list,-,-,-
 -,Pseudojuloides zeus,-,Labridae,long_list,-,Pseudojuloides zeus,-
-98380,Pseudolabrus biserialis,-,Labridae,long_list,-,-,-
+98380,Pseudolabrus biserialis,-,Labridae,long_list,in_assembly,-,-
 98376,Pseudolabrus eoethinus,-,Labridae,long_list,-,-,-
 248065,Pseudolabrus fuentesi,-,Labridae,long_list,-,-,-
 241341,Pseudolabrus gayi,-,Labridae,long_list,-,-,-
@@ -9122,7 +9122,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Crapatalus novaezelandiae,-,Leptoscopidae,long_list,-,Crapatalus novaezelandiae,-
 -,Leptoscopus macropygus,-,Leptoscopidae,long_list,-,Leptoscopus macropygus,-
 390346,Lesueurina platycephala,-,Leptoscopidae,long_list,-,-,-
-490323,Gnathodentex aureolineatus,-,Lethrinidae,long_list,-,-,-
+490323,Gnathodentex aureolineatus,-,Lethrinidae,long_list,data_generation,-,-
 443696,Gymnocranius audleyi,-,Lethrinidae,long_list,-,-,-
 182645,Gymnocranius elongatus,-,Lethrinidae,long_list,-,-,-
 1508081,Gymnocranius euanus,-,Lethrinidae,long_list,sample_acquired,-,-
@@ -9152,7 +9152,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 182657,Lethrinus microdon,-,Lethrinidae,long_list,-,-,-
 132107,Lethrinus miniatus,-,Lethrinidae,long_list,-,-,-
 2872332,Lethrinus mitchelli,-,Lethrinidae,long_list,-,-,-
-182658,Lethrinus nebulosus,-,Lethrinidae,family_representative,insdc_open,-,-
+182658,Lethrinus nebulosus,-,Lethrinidae,family_representative,in_assembly,-,-
 182659,Lethrinus obsoletus,-,Lethrinidae,long_list,-,-,-
 182660,Lethrinus olivaceus,-,Lethrinidae,long_list,-,-,-
 119721,Lethrinus ornatus,-,Lethrinidae,long_list,-,-,-
@@ -9564,7 +9564,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 557361,Paraliparis rosaceus,-,Liparidae,long_list,-,-,-
 -,Paraliparis rossi,-,Liparidae,long_list,-,Paraliparis rossi,-
 2749948,Paraliparis ruficometes,-,Liparidae,long_list,-,-,-
--,Paraliparis selti,-,Liparidae,long_list,-,-,-
+-,Paraliparis selti,-,Liparidae,long_list,data_generation,-,-
 -,Paraliparis skeliphrus,-,Liparidae,long_list,-,Paraliparis skeliphrus,-
 -,Paraliparis somovi,-,Liparidae,long_list,-,Paraliparis somovi,-
 -,Paraliparis stehmanni,-,Liparidae,long_list,-,Paraliparis stehmanni,-
@@ -9625,7 +9625,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Psednos whitleyi,-,Liparidae,long_list,-,Psednos whitleyi,-
 2136213,Pseudoliparis amblystomopsis,-,Liparidae,long_list,-,-,-
 -,Pseudoliparis belyaevi,-,Liparidae,long_list,-,Pseudoliparis belyaevi,-
--,Pseudoliparis sp.,-,Liparidae,long_list,sample_acquired,-,-
+-,Pseudoliparis sp.,-,Liparidae,long_list,data_generation,-,-
 2059687,Pseudoliparis swirei,-,Liparidae,long_list,-,-,-
 -,Pseudonotoliparis rassi,-,Liparidae,long_list,-,Pseudonotoliparis rassi,-
 557365,Rhinoliparis attenuatus,-,Liparidae,long_list,-,-,-
@@ -9639,7 +9639,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Volodichthys smirnovi,-,Liparidae,long_list,-,Volodichthys smirnovi,-
 -,Volodichthys solovjevae,-,Liparidae,long_list,-,Volodichthys solovjevae,-
 -,Lobotes pacifica,-,Lobotidae,long_list,-,Lobotes pacifica,-
-463596,Lobotes surinamensis,-,Lobotidae,long_list,-,-,-
+463596,Lobotes surinamensis,-,Lobotidae,long_list,data_generation,-,-
 -,Lophichthys boschmai,-,Lophichthyidae,long_list,-,Lophichthys boschmai,-
 -,Lophiodes beroe,-,Lophiidae,long_list,-,Lophiodes beroe,-
 -,Lophiodes bruchius,-,Lophiidae,long_list,-,Lophiodes bruchius,-
@@ -9702,11 +9702,11 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 348445,Molva macrophthalma,-,Lotidae,long_list,-,-,-
 163112,Molva molva,-,Lotidae,long_list,-,-,-
 396779,Aphareus furca,-,Lutjanidae,long_list,in_assembly,-,-
-443676,Aphareus rutilans,-,Lutjanidae,long_list,data_generation,-,-
-396781,Aprion virescens,-,Lutjanidae,long_list,data_generation,-,-
+443676,Aphareus rutilans,-,Lutjanidae,long_list,in_assembly,-,-
+396781,Aprion virescens,-,Lutjanidae,long_list,in_assembly,-,-
 617122,Apsilus dentatus,-,Lutjanidae,long_list,-,-,-
 546540,Apsilus fuscus,-,Lutjanidae,long_list,-,-,-
-2780509,Etelis boweni,-,Lutjanidae,long_list,-,-,-
+2780509,Etelis boweni,-,Lutjanidae,long_list,data_generation,-,-
 443693,Etelis carbunculus,-,Lutjanidae,long_list,in_assembly,-,-
 1003729,Etelis coruscans,-,Lutjanidae,long_list,in_assembly,-,-
 40509,Etelis oculatus,-,Lutjanidae,long_list,-,-,-
@@ -9725,7 +9725,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 520515,Lutjanus bengalensis,-,Lutjanidae,long_list,-,-,-
 1206920,Lutjanus biguttatus,-,Lutjanidae,long_list,-,-,-
 1267419,Lutjanus bitaeniatus,-,Lutjanidae,long_list,-,-,-
-396784,Lutjanus bohar,-,Lutjanidae,long_list,data_generation,-,-
+396784,Lutjanus bohar,-,Lutjanidae,long_list,in_assembly,-,-
 1780177,Lutjanus boutton,-,Lutjanidae,long_list,-,-,-
 40504,Lutjanus buccanella,-,Lutjanidae,long_list,-,-,-
 40505,Lutjanus campechanus,-,Lutjanidae,long_list,-,-,-
@@ -9733,7 +9733,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2301322,Lutjanus coeruleolineatus,-,Lutjanidae,long_list,-,-,-
 697225,Lutjanus colorado,-,Lutjanidae,long_list,-,-,-
 40501,Lutjanus cyanopterus,-,Lutjanidae,long_list,-,-,-
-119723,Lutjanus decussatus,-,Lutjanidae,long_list,-,-,-
+119723,Lutjanus decussatus,-,Lutjanidae,long_list,data_generation,-,-
 490266,Lutjanus dentatus,-,Lutjanidae,long_list,-,-,-
 1378172,Lutjanus dodecacanthoides,-,Lutjanidae,long_list,-,-,-
 909121,Lutjanus ehrenbergii,-,Lutjanidae,long_list,-,-,-
@@ -9741,8 +9741,8 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 211835,Lutjanus erythropterus,-,Lutjanidae,long_list,in_assembly,-,-
 2703934,Lutjanus fulgens,-,Lutjanidae,long_list,-,-,-
 260525,Lutjanus fulviflamma,-,Lutjanidae,long_list,in_assembly,-,-
-260524,Lutjanus fulvus,-,Lutjanidae,long_list,data_generation,-,-
-396786,Lutjanus gibbus,-,Lutjanidae,long_list,-,-,-
+260524,Lutjanus fulvus,-,Lutjanidae,long_list,in_assembly,-,-
+396786,Lutjanus gibbus,-,Lutjanidae,long_list,data_generation,-,-
 497153,Lutjanus goldiei,-,Lutjanidae,long_list,-,-,-
 1910901,Lutjanus goreensis,-,Lutjanidae,long_list,-,-,-
 40503,Lutjanus griseus,-,Lutjanidae,long_list,-,-,-
@@ -9812,7 +9812,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1508078,Pristipomoides zonatus,-,Lutjanidae,long_list,in_assembly,-,-
 1522437,Randallichthys filamentosus,-,Lutjanidae,long_list,-,-,-
 40507,Rhomboplites aurorubens,-,Lutjanidae,long_list,-,-,-
-396796,Symphorichthys spilurus,-,Lutjanidae,long_list,-,-,-
+396796,Symphorichthys spilurus,-,Lutjanidae,long_list,data_generation,-,-
 396798,Symphorus nematophorus,-,Lutjanidae,long_list,in_assembly,-,-
 75026,Luvarus imperialis,-,Luvaridae,long_list,-,-,-
 83392,Albatrossia pectoralis,-,Macrouridae,long_list,-,-,-
@@ -10200,7 +10200,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2768298,Spicomacrurus kuronumai,-,Macrouridae,long_list,-,-,-
 -,Spicomacrurus mccoskeri,-,Macrouridae,long_list,-,Spicomacrurus mccoskeri,-
 -,Squalogadus cf. modificatus,-,Macrouridae,long_list,sample_acquired,-,-
-332423,Squalogadus modificatus,-,Macrouridae,long_list,-,-,-
+332423,Squalogadus modificatus,-,Macrouridae,long_list,data_generation,-,-
 2696636,Trachonurus gagates,-,Macrouridae,long_list,-,-,-
 -,Trachonurus robinsi,-,Macrouridae,long_list,-,Trachonurus robinsi,-
 1916791,Trachonurus sentipellis,-,Macrouridae,long_list,-,-,-
@@ -10278,12 +10278,12 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Hoplolatilus oreni,-,Malacanthidae,long_list,-,Hoplolatilus oreni,-
 -,Hoplolatilus pohle,-,Malacanthidae,long_list,-,Hoplolatilus pohle,-
 274802,Hoplolatilus purpureus,-,Malacanthidae,long_list,-,-,-
--,Hoplolatilus randalli,-,Malacanthidae,long_list,-,Hoplolatilus randalli,-
+-,Hoplolatilus randalli,-,Malacanthidae,long_list,data_generation,Hoplolatilus randalli,-
 2608441,Hoplolatilus starcki,-,Malacanthidae,long_list,-,-,-
 390349,Lopholatilus chamaeleonticeps,-,Malacanthidae,long_list,-,-,-
 458580,Lopholatilus villarii,-,Malacanthidae,long_list,-,-,-
 990986,Malacanthus brevirostris,-,Malacanthidae,long_list,-,-,-
-1003756,Malacanthus latovittatus,-,Malacanthidae,long_list,data_generation,-,-
+1003756,Malacanthus latovittatus,-,Malacanthidae,long_list,in_assembly,-,-
 1182015,Malacanthus plumieri,-,Malacanthidae,long_list,-,-,-
 57985,Megachasma pelagios,-,Megachasmidae,long_list,-,-,-
 7932,Megalops atlanticus,-,Megalopidae,long_list,-,-,-
@@ -10433,7 +10433,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Navigobius asayake,-,Microdesmidae,long_list,-,Navigobius asayake,-
 -,Navigobius kaguya,-,Microdesmidae,long_list,-,Navigobius kaguya,-
 1836939,Navigobius vittatus,-,Microdesmidae,long_list,-,-,-
-586835,Nemateleotris decora,-,Microdesmidae,long_list,data_generation,-,-
+586835,Nemateleotris decora,-,Microdesmidae,long_list,in_assembly,-,-
 -,Nemateleotris exquisita,-,Microdesmidae,long_list,-,Nemateleotris exquisita,-
 2589311,Nemateleotris helfrichi,-,Microdesmidae,long_list,-,-,-
 150309,Nemateleotris magnifica,-,Microdesmidae,long_list,-,-,-
@@ -10521,7 +10521,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Aluterus maculosus,-,Monacanthidae,long_list,-,Aluterus maculosus,-
 479862,Aluterus monoceros,-,Monacanthidae,long_list,-,-,-
 1182934,Aluterus schoepfii,-,Monacanthidae,long_list,-,-,-
-303710,Aluterus scriptus,-,Monacanthidae,long_list,data_generation,-,-
+303710,Aluterus scriptus,-,Monacanthidae,long_list,in_assembly,-,-
 245707,Amanses scopas,-,Monacanthidae,long_list,-,-,-
 570931,Anacanthus barbatus,-,Monacanthidae,long_list,-,-,-
 -,Arotrolepis filicauda,-,Monacanthidae,long_list,-,Arotrolepis filicauda,-
@@ -10557,7 +10557,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 548162,Meuschenia australis,-,Monacanthidae,long_list,-,-,-
 2609496,Meuschenia flavolineata,-,Monacanthidae,long_list,-,-,-
 1357722,Meuschenia freycineti,-,Monacanthidae,long_list,-,-,-
--,Meuschenia galii,-,Monacanthidae,long_list,data_generation,Meuschenia galii,-
+-,Meuschenia galii,-,Monacanthidae,long_list,in_assembly,Meuschenia galii,-
 392920,Meuschenia hippocrepis,-,Monacanthidae,long_list,-,-,-
 548163,Meuschenia scaber,-,Monacanthidae,long_list,-,-,-
 303722,Meuschenia trachylepis,-,Monacanthidae,long_list,-,-,-
@@ -10567,9 +10567,9 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1112860,Monacanthus tuckeri,-,Monacanthidae,long_list,-,-,-
 303726,Nelusetta ayraud,-,Monacanthidae,long_list,-,-,-
 2067702,Oxymonacanthus halli,-,Monacanthidae,long_list,-,-,-
-303724,Oxymonacanthus longirostris,-,Monacanthidae,long_list,-,-,-
+303724,Oxymonacanthus longirostris,-,Monacanthidae,long_list,data_generation,-,-
 -,Paraluteres arqat,-,Monacanthidae,long_list,-,Paraluteres arqat,-
-303718,Paraluteres prionurus,-,Monacanthidae,long_list,-,-,-
+303718,Paraluteres prionurus,-,Monacanthidae,long_list,data_generation,-,-
 2710635,Paramonacanthus arabicus,-,Monacanthidae,long_list,-,-,-
 392923,Paramonacanthus choirocephalus,-,Monacanthidae,long_list,-,-,-
 1609328,Paramonacanthus cryptodon,-,Monacanthidae,long_list,-,-,-
@@ -10965,7 +10965,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 118162,Muraenesox bagio,-,Muraenesocidae,long_list,-,-,-
 7946,Muraenesox cinereus,-,Muraenesocidae,long_list,-,-,-
 -,Muraenesox yamaguchiensis,-,Muraenesocidae,long_list,-,Muraenesox yamaguchiensis,-
-189503,Oxyconger leptognathus,-,Muraenesocidae,long_list,-,-,-
+189503,Oxyconger leptognathus,-,Muraenesocidae,long_list,data_generation,-,-
 2923228,Sauromuraenesox vorax,-,Muraenesocidae,long_list,-,-,-
 -,Anarchias allardicei,-,Muraenidae,long_list,-,Anarchias allardicei,-
 -,Anarchias cantonensis,-,Muraenidae,long_list,-,Anarchias cantonensis,-
@@ -11630,7 +11630,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 195316,Narcine timlei,-,Narcinidae,long_list,-,-,-
 -,Narcine vermiculata,-,Narcinidae,long_list,-,Narcine vermiculata,-
 -,Narcinops lasti,-,Narcinidae,long_list,-,Narcinops lasti,-
--,Narcinops nelsoni,-,Narcinidae,long_list,-,Narcinops nelsoni,-
+-,Narcinops nelsoni,-,Narcinidae,long_list,data_generation,Narcinops nelsoni,-
 -,Narcinops ornatus,-,Narcinidae,long_list,-,Narcinops ornatus,-
 -,Narcinops tasmaniensis,-,Narcinidae,long_list,-,Narcinops tasmaniensis,-
 -,Narcinops westraliensis,-,Narcinidae,long_list,-,Narcinops westraliensis,-
@@ -11648,7 +11648,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Typhlonarke tarakea,-,Narkidae,long_list,-,Typhlonarke tarakea,-
 -,Aborichthys iphipaniensis,-,Nemacheilidae,long_list,-,Aborichthys iphipaniensis,-
 173244,Nematistius pectoralis,-,Nematistiidae,long_list,-,-,-
--,Avocettina acuticeps,-,Nemichthyidae,long_list,-,Avocettina acuticeps,-
+-,Avocettina acuticeps,-,Nemichthyidae,long_list,data_generation,Avocettina acuticeps,-
 2048720,Avocettina bowersii,-,Nemichthyidae,long_list,-,-,-
 121280,Avocettina infans,-,Nemichthyidae,long_list,-,-,-
 -,Avocettina paucipora,-,Nemichthyidae,long_list,-,Avocettina paucipora,-
@@ -11711,11 +11711,11 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Pentapodus porosus,-,Nemipteridae,long_list,-,Pentapodus porosus,-
 490272,Pentapodus setosus,-,Nemipteridae,long_list,-,-,-
 1982619,Pentapodus trivittatus,-,Nemipteridae,long_list,-,-,-
--,Pentapodus vitta,-,Nemipteridae,long_list,-,Pentapodus vitta,-
+-,Pentapodus vitta,-,Nemipteridae,long_list,data_generation,Pentapodus vitta,-
 1982624,Scaevius milii,-,Nemipteridae,long_list,-,-,-
 490283,Scolopsis affinis,-,Nemipteridae,long_list,-,-,-
 1647169,Scolopsis aurata,-,Nemipteridae,long_list,-,-,-
-746842,Scolopsis bilineata,-,Nemipteridae,long_list,-,-,-
+746842,Scolopsis bilineata,-,Nemipteridae,long_list,data_generation,-,-
 1003798,Scolopsis bimaculata,-,Nemipteridae,long_list,-,-,-
 119746,Scolopsis ciliata,-,Nemipteridae,long_list,-,-,-
 1141930,Scolopsis frenata,-,Nemipteridae,long_list,-,-,-
@@ -11733,7 +11733,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1378173,Scolopsis xenochrous,-,Nemipteridae,long_list,-,-,-
 27604,Caperea marginata,-,Neobalaenidae,long_list,-,-,-
 412630,Neoceratias spinifer,-,Neoceratiidae,long_list,-,-,-
-88701,Neoscopelus macrolepidotus,-,Neoscopelidae,long_list,-,-,-
+88701,Neoscopelus macrolepidotus,-,Neoscopelidae,long_list,data_generation,-,-
 143321,Neoscopelus microchir,-,Neoscopelidae,long_list,-,-,-
 1519992,Neoscopelus porosus,-,Neoscopelidae,long_list,-,-,-
 -,Scopelengys clarkei,-,Neoscopelidae,long_list,-,Scopelengys clarkei,-
@@ -11800,7 +11800,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1760862,Saurenchelys taiwanensis,-,Nettastomatidae,long_list,-,-,-
 -,Venefica multiporosa,-,Nettastomatidae,long_list,-,Venefica multiporosa,-
 -,Venefica ocella,-,Nettastomatidae,long_list,-,Venefica ocella,-
-391216,Venefica proboscidea,-,Nettastomatidae,long_list,-,-,-
+391216,Venefica proboscidea,-,Nettastomatidae,long_list,data_generation,-,-
 1232747,Venefica procera,-,Nettastomatidae,long_list,-,-,-
 2048766,Venefica tentaculata,-,Nettastomatidae,long_list,-,-,-
 319749,Cubiceps baxteri,-,Nomeidae,long_list,-,-,-
@@ -11811,7 +11811,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Cubiceps macrolepis,-,Nomeidae,long_list,-,Cubiceps macrolepis,-
 -,Cubiceps nanus,-,Nomeidae,long_list,-,Cubiceps nanus,-
 316137,Cubiceps paradoxus,-,Nomeidae,long_list,-,-,-
-215401,Cubiceps pauciradiatus,-,Nomeidae,long_list,-,-,-
+215401,Cubiceps pauciradiatus,-,Nomeidae,long_list,data_generation,-,-
 662065,Cubiceps whiteleggii,-,Nomeidae,long_list,-,-,-
 1003968,Nomeus gronovii,-,Nomeidae,long_list,-,-,-
 316142,Psenes arafurensis,-,Nomeidae,long_list,-,-,-
@@ -11915,12 +11915,12 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 241359,Neoodax balteatus,-,Odacidae,long_list,-,-,-
 241362,Odax cyanoallix,-,Odacidae,long_list,-,-,-
 241364,Odax pullus,-,Odacidae,long_list,-,-,-
-1605466,Olisthops cyanomelas,-,Odacidae,long_list,data_generation,-,-
+1605466,Olisthops cyanomelas,-,Odacidae,long_list,in_assembly,-,-
 241367,Siphonognathus argyrophanes,-,Odacidae,long_list,-,-,-
 -,Siphonognathus attenuatus,-,Odacidae,long_list,-,Siphonognathus attenuatus,-
 -,Siphonognathus beddomei,-,Odacidae,long_list,-,Siphonognathus beddomei,-
 -,Siphonognathus caninis,-,Odacidae,long_list,-,Siphonognathus caninis,-
-2986119,Siphonognathus radiatus,-,Odacidae,long_list,data_generation,-,-
+2986119,Siphonognathus radiatus,-,Odacidae,long_list,in_assembly,-,-
 -,Siphonognathus tanyourus,-,Odacidae,long_list,-,Siphonognathus tanyourus,-
 9707,Odobenus rosmarus,-,Odobenidae,long_list,-,-,-
 30501,Carcharias taurus,-,Odontaspididae,long_list,-,-,-
@@ -12457,7 +12457,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1843784,Apagesoma australe,-,Ophidiidae,long_list,-,-,-
 -,Apagesoma delosommatum,-,Ophidiidae,long_list,-,Apagesoma delosommatum,-
 -,Apagesoma edentatum,-,Ophidiidae,long_list,-,Apagesoma edentatum,-
--,Barathrites iris,-,Ophidiidae,long_list,data_generation,Barathrites iris,-
+-,Barathrites iris,-,Ophidiidae,long_list,in_assembly,Barathrites iris,-
 -,Barathrites parri,-,Ophidiidae,long_list,-,Barathrites parri,-
 -,Barathrodemus manatinus,-,Ophidiidae,long_list,-,Barathrodemus manatinus,-
 -,Barathrodemus nasutus,-,Ophidiidae,long_list,-,Barathrodemus nasutus,-
@@ -12475,7 +12475,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Bassozetus normalis,-,Ophidiidae,long_list,-,Bassozetus normalis,-
 -,Bassozetus oncerocephalus,-,Ophidiidae,long_list,-,Bassozetus oncerocephalus,-
 -,Bassozetus robustus,-,Ophidiidae,long_list,-,Bassozetus robustus,-
--,Bassozetus sp.,-,Ophidiidae,long_list,-,-,-
+-,Bassozetus sp.,-,Ophidiidae,long_list,data_generation,-,-
 -,Bassozetus squamosus,-,Ophidiidae,long_list,-,Bassozetus squamosus,-
 -,Bassozetus taenia,-,Ophidiidae,long_list,-,Bassozetus taenia,-
 -,Bassozetus trachibranchus,-,Ophidiidae,long_list,-,Bassozetus trachibranchus,-
@@ -12906,7 +12906,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 229058,Ostracion cubicum,-,Ostraciidae,long_list,-,-,-
 -,Ostracion cyanurus,-,Ostraciidae,long_list,-,Ostracion cyanurus,-
 -,Ostracion immaculatum,-,Ostraciidae,long_list,-,Ostracion immaculatum,-
-342444,Ostracion meleagris,-,Ostraciidae,long_list,-,-,-
+342444,Ostracion meleagris,-,Ostraciidae,long_list,data_generation,-,-
 586839,Ostracion rhinorhynchos,-,Ostraciidae,long_list,-,-,-
 1240561,Ostracion solorense,-,Ostraciidae,long_list,-,-,-
 -,Ostracion trachys,-,Ostraciidae,long_list,-,Ostracion trachys,-
@@ -12919,7 +12919,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Tetrosomus stellifer,-,Ostraciidae,long_list,-,Tetrosomus stellifer,-
 428449,Ostracoberyx dorygenys,-,Ostracoberycidae,long_list,-,-,-
 -,Ostracoberyx fowleri,-,Ostracoberycidae,long_list,-,Ostracoberyx fowleri,-
--,Ostracoberyx paxtoni,-,Ostracoberycidae,long_list,-,Ostracoberyx paxtoni,-
+-,Ostracoberyx paxtoni,-,Ostracoberycidae,long_list,data_generation,Ostracoberyx paxtoni,-
 161928,Arctocephalus australis,-,Otariidae,long_list,-,-,-
 30584,Arctocephalus galapagoensis,-,Otariidae,long_list,-,-,-
 37190,Arctocephalus gazella,-,Otariidae,long_list,-,-,-
@@ -12928,7 +12928,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 37194,Arctocephalus tropicalis,-,Otariidae,long_list,-,-,-
 34884,Callorhinus ursinus,-,Otariidae,long_list,-,-,-
 34886,Eumetopias jubatus,-,Otariidae,long_list,-,-,-
-161930,Neophoca cinerea,-,Otariidae,long_list,data_generation,-,-
+161930,Neophoca cinerea,-,Otariidae,long_list,in_assembly,-,-
 161932,Otaria byronia,-,Otariidae,long_list,-,-,-
 34888,Phocarctos hookeri,-,Otariidae,long_list,-,-,-
 9704,Zalophus californianus,-,Otariidae,long_list,-,-,-
@@ -13215,7 +13215,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1780476,Pempheris ibo,-,Pempheridae,long_list,-,-,-
 -,Pempheris itoi,-,Pempheridae,long_list,-,Pempheris itoi,-
 1158916,Pempheris japonica,-,Pempheridae,long_list,-,-,-
-3127111,Pempheris klunzingeri,-,Pempheridae,long_list,insdc_open,-,-
+3127111,Pempheris klunzingeri,-,Pempheridae,long_list,in_assembly,-,-
 -,Pempheris kruppi,-,Pempheridae,long_list,-,Pempheris kruppi,-
 -,Pempheris kuriamuria,-,Pempheridae,long_list,-,Pempheris kuriamuria,-
 -,Pempheris leiolepis,-,Pempheridae,long_list,-,Pempheris leiolepis,-
@@ -13691,7 +13691,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1522412,Parapercis tetracantha,-,Pinguipedidae,long_list,-,-,-
 -,Parapercis vittafrons,-,Pinguipedidae,long_list,-,Parapercis vittafrons,-
 -,Parapercis xanthogramma,-,Pinguipedidae,long_list,-,Parapercis xanthogramma,-
-1184739,Parapercis xanthozona,-,Pinguipedidae,long_list,-,-,-
+1184739,Parapercis xanthozona,-,Pinguipedidae,long_list,data_generation,-,-
 458598,Pinguipes brasilianus,-,Pinguipedidae,long_list,-,-,-
 546532,Pinguipes chilensis,-,Pinguipedidae,long_list,-,-,-
 -,Prolatilus jugularis,-,Pinguipedidae,long_list,-,Prolatilus jugularis,-
@@ -13735,7 +13735,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Platycephalus angustus,-,Platycephalidae,long_list,-,Platycephalus angustus,-
 334934,Platycephalus aurimaculatus,-,Platycephalidae,long_list,-,-,-
 1811510,Platycephalus australis,-,Platycephalidae,long_list,-,-,-
-274739,Platycephalus bassensis,-,Platycephalidae,long_list,data_generation,-,-
+274739,Platycephalus bassensis,-,Platycephalidae,long_list,in_assembly,-,-
 334929,Platycephalus caeruleopunctatus,-,Platycephalidae,long_list,-,-,-
 2609501,Platycephalus chauliodous,-,Platycephalidae,long_list,-,-,-
 497288,Platycephalus conatus,-,Platycephalidae,long_list,-,-,-
@@ -13831,7 +13831,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 61084,Plecoglossus altivelis,-,Plecoglossidae,long_list,-,-,-
 -,Plectrogenium barsukovi,-,Plectrogeniidae,long_list,-,Plectrogenium barsukovi,-
 274734,Plectrogenium nanum,-,Plectrogeniidae,long_list,-,-,-
-195321,Plesiobatis daviesi,-,Plesiobatidae,long_list,-,-,-
+195321,Plesiobatis daviesi,-,Plesiobatidae,long_list,data_generation,-,-
 2696578,Acanthoclinus fuscus,-,Plesiopidae,long_list,-,-,-
 -,Acanthoclinus littoreus,-,Plesiopidae,long_list,-,Acanthoclinus littoreus,-
 -,Acanthoclinus marilynae,-,Plesiopidae,long_list,-,Acanthoclinus marilynae,-
@@ -14029,7 +14029,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2899435,Poecilia mandibularis,-,Poeciliidae,long_list,-,-,-
 2956781,Poeciliopsis jackschultzi,-,Poeciliidae,long_list,-,-,-
 188129,Poeciliopsis latidens,-,Poeciliidae,long_list,-,-,-
-88705,Polymixia berndti,-,Polymixiidae,long_list,insdc_open,-,-
+88705,Polymixia berndti,-,Polymixiidae,long_list,in_assembly,-,-
 2578330,Polymixia busakhini,-,Polymixiidae,long_list,-,-,-
 1874274,Polymixia fusca,-,Polymixiidae,long_list,-,-,-
 -,Polymixia hollisterae,-,Polymixiidae,long_list,-,Polymixia hollisterae,-
@@ -14097,7 +14097,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 586785,Centropyge bispinosa,-,Pomacanthidae,long_list,in_assembly,-,-
 1474810,Centropyge boylei,-,Pomacanthidae,long_list,-,-,-
 -,Centropyge cocosensis,-,Pomacanthidae,long_list,-,Centropyge cocosensis,-
-1474811,Centropyge colini,-,Pomacanthidae,long_list,data_generation,-,-
+1474811,Centropyge colini,-,Pomacanthidae,long_list,in_assembly,-,-
 -,Centropyge debelius,-,Pomacanthidae,long_list,-,Centropyge debelius,-
 1445868,Centropyge deborae,-,Pomacanthidae,long_list,-,-,-
 109725,Centropyge eibli,-,Pomacanthidae,long_list,-,-,-
@@ -14138,7 +14138,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2599946,Chaetodontoplus poliourus,-,Pomacanthidae,long_list,-,-,-
 215363,Chaetodontoplus septentrionalis,-,Pomacanthidae,long_list,-,-,-
 -,Chaetodontoplus vanderloosi,-,Pomacanthidae,long_list,-,Chaetodontoplus vanderloosi,-
-1156109,Genicanthus bellus,-,Pomacanthidae,long_list,data_generation,-,-
+1156109,Genicanthus bellus,-,Pomacanthidae,long_list,in_assembly,-,-
 1003730,Genicanthus caudovittatus,-,Pomacanthidae,long_list,-,-,-
 109912,Genicanthus lamarck,-,Pomacanthidae,long_list,-,-,-
 109923,Genicanthus melanospilos,-,Pomacanthidae,long_list,-,-,-
@@ -14170,7 +14170,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 109714,Pomacanthus sexstriatus,-,Pomacanthidae,long_list,-,-,-
 109715,Pomacanthus xanthometopon,-,Pomacanthidae,long_list,-,-,-
 272801,Pomacanthus zonipectus,-,Pomacanthidae,long_list,-,-,-
-109741,Pygoplites diacanthus,-,Pomacanthidae,long_list,-,-,-
+109741,Pygoplites diacanthus,-,Pomacanthidae,long_list,data_generation,-,-
 229087,Abudefduf abdominalis,-,Pomacentridae,long_list,-,-,-
 229088,Abudefduf bengalensis,-,Pomacentridae,long_list,-,-,-
 36214,Abudefduf concolor,-,Pomacentridae,long_list,-,-,-
@@ -14184,7 +14184,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 229091,Abudefduf notatus,-,Pomacentridae,long_list,-,-,-
 50731,Abudefduf saxatilis,-,Pomacentridae,long_list,-,-,-
 229092,Abudefduf septemfasciatus,-,Pomacentridae,long_list,-,-,-
-80948,Abudefduf sexfasciatus,-,Pomacentridae,long_list,data_generation,-,-
+80948,Abudefduf sexfasciatus,-,Pomacentridae,long_list,in_assembly,-,-
 192870,Abudefduf sordidus,-,Pomacentridae,long_list,-,-,-
 229093,Abudefduf sparoides,-,Pomacentridae,long_list,-,-,-
 36216,Abudefduf taurus,-,Pomacentridae,long_list,-,-,-
@@ -14201,7 +14201,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1910769,Amblyglyphidodon flavilatus,-,Pomacentridae,long_list,-,-,-
 -,Amblyglyphidodon flavopurpureus,-,Pomacentridae,long_list,-,Amblyglyphidodon flavopurpureus,-
 997964,Amblyglyphidodon indicus,-,Pomacentridae,long_list,-,-,-
-229096,Amblyglyphidodon leucogaster,-,Pomacentridae,long_list,-,-,-
+229096,Amblyglyphidodon leucogaster,-,Pomacentridae,long_list,data_generation,-,-
 2830208,Amblyglyphidodon melanopterus,-,Pomacentridae,long_list,-,-,-
 1245545,Amblyglyphidodon orbicularis,-,Pomacentridae,long_list,-,-,-
 -,Amblyglyphidodon silolona,-,Pomacentridae,long_list,-,Amblyglyphidodon silolona,-
@@ -14271,7 +14271,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 91607,Chromis chromis,-,Pomacentridae,long_list,-,-,-
 229080,Chromis chrysura,-,Pomacentridae,long_list,-,-,-
 1772018,Chromis cinerascens,-,Pomacentridae,long_list,-,-,-
-492110,Chromis circumaurea,-,Pomacentridae,long_list,data_generation,-,-
+492110,Chromis circumaurea,-,Pomacentridae,long_list,in_assembly,-,-
 -,Chromis crusma,-,Pomacentridae,long_list,-,Chromis crusma,-
 990569,Chromis dasygenys,-,Pomacentridae,long_list,-,-,-
 492111,Chromis degruyi,-,Pomacentridae,long_list,-,-,-
@@ -14391,7 +14391,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2576764,Chrysiptera uswanasi,-,Pomacentridae,long_list,-,-,-
 2073042,Dascyllus abudafur,-,Pomacentridae,long_list,-,-,-
 91608,Dascyllus albisella,-,Pomacentridae,long_list,-,-,-
-80949,Dascyllus aruanus,-,Pomacentridae,long_list,data_generation,-,-
+80949,Dascyllus aruanus,-,Pomacentridae,long_list,in_assembly,-,-
 -,Dascyllus auripinnis,-,Pomacentridae,long_list,-,Dascyllus auripinnis,-
 91609,Dascyllus carneus,-,Pomacentridae,long_list,-,-,-
 91610,Dascyllus flavicaudus,-,Pomacentridae,long_list,-,-,-
@@ -14549,7 +14549,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1647164,Pomacentrus trichrourus,-,Pomacentridae,long_list,-,-,-
 229141,Pomacentrus trilineatus,-,Pomacentridae,long_list,-,-,-
 1647165,Pomacentrus tripunctatus,-,Pomacentridae,long_list,-,-,-
-161914,Pomacentrus vaiuli,-,Pomacentridae,long_list,sample_acquired,-,-
+161914,Pomacentrus vaiuli,-,Pomacentridae,long_list,data_generation,-,-
 2576774,Pomacentrus vatosoa,-,Pomacentridae,long_list,-,-,-
 521273,Pomacentrus wardi,-,Pomacentridae,long_list,-,-,-
 2578332,Pomacentrus xanthosternus,-,Pomacentridae,long_list,-,-,-
@@ -14565,7 +14565,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Pycnochromis acares,-,Pomacentridae,long_list,-,Pycnochromis acares,-
 -,Pycnochromis agilis,-,Pomacentridae,long_list,-,Pycnochromis agilis,-
 1772017,Pycnochromis alleni,-,Pomacentridae,long_list,-,-,-
--,Pycnochromis amboinensis,-,Pomacentridae,long_list,sample_acquired,Pycnochromis amboinensis,-
+-,Pycnochromis amboinensis,-,Pomacentridae,long_list,data_generation,Pycnochromis amboinensis,-
 -,Pycnochromis atripes,-,Pomacentridae,long_list,-,Pycnochromis atripes,-
 1268081,Pycnochromis bami,-,Pomacentridae,long_list,-,-,-
 231456,Pycnochromis caudalis,-,Pomacentridae,long_list,-,-,-
@@ -15037,7 +15037,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Dentiraja polyommata,-,Rajidae,long_list,-,Dentiraja polyommata,-
 -,Dipturus acrobelus,-,Rajidae,long_list,-,Dipturus acrobelus,-
 -,Dipturus amphispinus,-,Rajidae,long_list,-,Dipturus amphispinus,-
--,Dipturus apricus,-,Rajidae,long_list,-,Dipturus apricus,-
+-,Dipturus apricus,-,Rajidae,long_list,data_generation,Dipturus apricus,-
 662069,Dipturus argentinensis,-,Rajidae,long_list,-,-,-
 420460,Dipturus batis,-,Rajidae,long_list,-,-,-
 2772298,Dipturus brevicaudatus,-,Rajidae,long_list,-,-,-
@@ -15408,7 +15408,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Chlorurus genazonatus,-,Scaridae,long_list,-,Chlorurus genazonatus,-
 626241,Chlorurus gibbus,-,Scaridae,long_list,-,-,-
 544413,Chlorurus japanensis,-,Scaridae,long_list,-,-,-
-544414,Chlorurus microrhinos,-,Scaridae,long_list,-,-,-
+544414,Chlorurus microrhinos,-,Scaridae,long_list,data_generation,-,-
 188108,Chlorurus oedema,-,Scaridae,long_list,-,-,-
 1236052,Chlorurus perspicillatus,-,Scaridae,long_list,-,-,-
 1236053,Chlorurus rhakoura,-,Scaridae,long_list,-,-,-
@@ -15849,7 +15849,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 217026,Auxis rochei,-,Scombridae,long_list,-,-,-
 13353,Auxis thazard,-,Scombridae,long_list,-,-,-
 248142,Cybiosarda elegans,-,Scombridae,long_list,-,-,-
-8227,Euthynnus affinis,-,Scombridae,long_list,-,-,-
+8227,Euthynnus affinis,-,Scombridae,long_list,data_generation,-,-
 8228,Euthynnus alletteratus,-,Scombridae,long_list,-,-,-
 507566,Euthynnus lineatus,-,Scombridae,long_list,-,-,-
 13537,Gasterochisma melampus,-,Scombridae,long_list,-,-,-
@@ -15871,7 +15871,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 13676,Scomber japonicus,-,Scombridae,long_list,-,-,-
 99341,Scomberomorus brasiliensis,-,Scombridae,long_list,-,-,-
 13679,Scomberomorus cavalla,-,Scombridae,long_list,-,-,-
-218798,Scomberomorus commerson,-,Scombridae,long_list,-,-,-
+218798,Scomberomorus commerson,-,Scombridae,long_list,data_generation,-,-
 99342,Scomberomorus concolor,-,Scombridae,long_list,-,-,-
 99343,Scomberomorus guttatus,-,Scombridae,long_list,-,-,-
 372802,Scomberomorus koreanus,-,Scombridae,long_list,-,-,-
@@ -15881,7 +15881,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 248137,Scomberomorus munroi,-,Scombridae,long_list,-,-,-
 321164,Scomberomorus niphonius,-,Scombridae,long_list,-,-,-
 1003799,Scomberomorus plurilineatus,-,Scombridae,long_list,-,-,-
-248136,Scomberomorus queenslandicus,-,Scombridae,long_list,-,-,-
+248136,Scomberomorus queenslandicus,-,Scombridae,long_list,data_generation,-,-
 99345,Scomberomorus regalis,-,Scombridae,long_list,-,-,-
 248138,Scomberomorus semifasciatus,-,Scombridae,long_list,-,-,-
 99346,Scomberomorus sierra,-,Scombridae,long_list,-,-,-
@@ -16088,7 +16088,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 210004,Scorpaena scrofa,-,Scorpaenidae,long_list,-,-,-
 1317705,Scorpaena sonorae,-,Scorpaenidae,long_list,-,-,-
 -,Scorpaena stephanica,-,Scorpaenidae,long_list,-,Scorpaena stephanica,-
--,Scorpaena sumptuosa,-,Scorpaenidae,long_list,data_generation,Scorpaena sumptuosa,-
+-,Scorpaena sumptuosa,-,Scorpaenidae,long_list,in_assembly,Scorpaena sumptuosa,-
 -,Scorpaena thomsoni,-,Scorpaenidae,long_list,-,Scorpaena thomsoni,-
 -,Scorpaena tierrae,-,Scorpaenidae,long_list,-,Scorpaena tierrae,-
 -,Scorpaena uncinata,-,Scorpaenidae,long_list,-,Scorpaena uncinata,-
@@ -16206,7 +16206,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 740693,Cephaloscyllium ventriosum,-,Scyliorhinidae,long_list,-,-,-
 -,Cephaloscyllium zebrum,-,Scyliorhinidae,long_list,-,Cephaloscyllium zebrum,-
 1053879,Figaro boardmani,-,Scyliorhinidae,long_list,-,-,-
--,Figaro striatus,-,Scyliorhinidae,long_list,-,Figaro striatus,-
+-,Figaro striatus,-,Scyliorhinidae,long_list,data_generation,Figaro striatus,-
 1003957,Haploblepharus edwardsii,-,Scyliorhinidae,long_list,-,-,-
 2591640,Haploblepharus fuscus,-,Scyliorhinidae,long_list,-,-,-
 1003958,Haploblepharus kistnasamyi,-,Scyliorhinidae,long_list,-,-,-
@@ -16386,7 +16386,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1379451,Acanthistius pictus,-,Serranidae,long_list,-,-,-
 -,Acanthistius sebastoides,-,Serranidae,long_list,-,Acanthistius sebastoides,-
 2609486,Acanthistius serratus,-,Serranidae,long_list,-,-,-
-327776,Aethaloperca rogaa,-,Serranidae,long_list,-,-,-
+327776,Aethaloperca rogaa,-,Serranidae,long_list,data_generation,-,-
 246622,Alphestes afer,-,Serranidae,long_list,-,-,-
 160542,Alphestes immaculatus,-,Serranidae,long_list,-,-,-
 160543,Alphestes multiguttatus,-,Serranidae,long_list,-,-,-
@@ -16399,7 +16399,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1070782,Anthias nicholsi,-,Serranidae,long_list,-,-,-
 -,Anthias noeli,-,Serranidae,long_list,-,Anthias noeli,-
 2163919,Anthias woodsi,-,Serranidae,long_list,-,-,-
-160702,Anyperodon leucogrammicus,-,Serranidae,long_list,-,-,-
+160702,Anyperodon leucogrammicus,-,Serranidae,long_list,data_generation,-,-
 1003687,Aporops bilinearis,-,Serranidae,long_list,-,-,-
 990936,Aulacocephalus temminckii,-,Serranidae,long_list,-,-,-
 1206918,Baldwinella aureorubens,-,Serranidae,long_list,-,-,-
@@ -16425,7 +16425,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Centropristis rufus,-,Serranidae,long_list,-,Centropristis rufus,-
 184440,Centropristis striata,-,Serranidae,long_list,-,-,-
 3040399,Cephalopholis aitha,-,Serranidae,long_list,-,-,-
-309930,Cephalopholis argus,-,Serranidae,long_list,-,-,-
+309930,Cephalopholis argus,-,Serranidae,long_list,data_generation,-,-
 1522394,Cephalopholis aurantia,-,Serranidae,long_list,-,-,-
 91743,Cephalopholis boenak,-,Serranidae,long_list,-,-,-
 160704,Cephalopholis cruentata,-,Serranidae,long_list,-,-,-
@@ -16488,7 +16488,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1154650,Diplectrum radiale,-,Serranidae,long_list,-,-,-
 -,Diplectrum rostrum,-,Serranidae,long_list,-,Diplectrum rostrum,-
 -,Diplectrum sciurus,-,Serranidae,long_list,-,Diplectrum sciurus,-
-91747,Diploprion bifasciatum,-,Serranidae,long_list,-,-,-
+91747,Diploprion bifasciatum,-,Serranidae,long_list,data_generation,-,-
 2301319,Diploprion drachi,-,Serranidae,long_list,-,-,-
 1197329,Dules auriga,-,Serranidae,long_list,-,-,-
 -,Epinephelides armatus,-,Serranidae,long_list,in_assembly,Epinephelides armatus,-
@@ -16517,7 +16517,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 309632,Epinephelus costae,-,Serranidae,long_list,-,-,-
 2884373,Epinephelus craigi,-,Serranidae,long_list,-,-,-
 308565,Epinephelus cyanopodus,-,Serranidae,long_list,-,-,-
-327944,Epinephelus daemelii,-,Serranidae,long_list,-,-,-
+327944,Epinephelus daemelii,-,Serranidae,long_list,data_generation,-,-
 306579,Epinephelus diacanthus,-,Serranidae,long_list,-,-,-
 160717,Epinephelus drummondhayi,-,Serranidae,long_list,-,-,-
 309922,Epinephelus epistictus,-,Serranidae,long_list,-,-,-
@@ -16710,7 +16710,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 320403,Mycteroperca xenarcha,-,Serranidae,long_list,-,-,-
 428436,Nemanthias carberryi,-,Serranidae,long_list,-,-,-
 228254,Niphon spinosus,-,Serranidae,long_list,-,-,-
-990613,Odontanthias borbonius,-,Serranidae,long_list,data_generation,-,-
+990613,Odontanthias borbonius,-,Serranidae,long_list,in_assembly,-,-
 1868307,Odontanthias caudicinctus,-,Serranidae,long_list,-,-,-
 -,Odontanthias cauoh,-,Serranidae,long_list,-,Odontanthias cauoh,-
 1415275,Odontanthias chrysostictus,-,Serranidae,long_list,-,-,-
@@ -16748,7 +16748,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Plectranthias altipinnatus,-,Serranidae,long_list,-,Plectranthias altipinnatus,-
 -,Plectranthias anthioides,-,Serranidae,long_list,-,Plectranthias anthioides,-
 -,Plectranthias bauchotae,-,Serranidae,long_list,-,Plectranthias bauchotae,-
-1711928,Plectranthias bennetti,-,Serranidae,long_list,data_generation,-,-
+1711928,Plectranthias bennetti,-,Serranidae,long_list,in_assembly,-,-
 2697119,Plectranthias bilaticlavia,-,Serranidae,long_list,-,-,-
 -,Plectranthias cirrhitoides,-,Serranidae,long_list,-,Plectranthias cirrhitoides,-
 -,Plectranthias cruentus,-,Serranidae,long_list,-,Plectranthias cruentus,-
@@ -16807,12 +16807,12 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1343686,Plectranthias winniensis,-,Serranidae,long_list,-,-,-
 -,Plectranthias xanthomaculatus,-,Serranidae,long_list,-,Plectranthias xanthomaculatus,-
 1522398,Plectranthias yamakawai,-,Serranidae,long_list,-,-,-
-327818,Plectropomus areolatus,-,Serranidae,long_list,-,-,-
-134630,Plectropomus laevis,-,Serranidae,long_list,-,-,-
+327818,Plectropomus areolatus,-,Serranidae,long_list,data_generation,-,-
+134630,Plectropomus laevis,-,Serranidae,long_list,data_generation,-,-
 160734,Plectropomus leopardus,-,Serranidae,long_list,in_assembly,-,-
-160735,Plectropomus maculatus,-,Serranidae,long_list,-,-,-
+160735,Plectropomus maculatus,-,Serranidae,long_list,data_generation,-,-
 1550403,Plectropomus marisrubri,-,Serranidae,long_list,-,-,-
-327819,Plectropomus oligacanthus,-,Serranidae,long_list,-,-,-
+327819,Plectropomus oligacanthus,-,Serranidae,long_list,data_generation,-,-
 327690,Plectropomus pessuliferus,-,Serranidae,long_list,-,-,-
 1550405,Plectropomus punctatus,-,Serranidae,long_list,-,-,-
 1510179,Pogonoperca ocellata,-,Serranidae,long_list,-,-,-
@@ -16925,13 +16925,13 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2872334,Sacura parva,-,Serranidae,long_list,-,-,-
 -,Sacura sanguinea,-,Serranidae,long_list,-,Sacura sanguinea,-
 2935651,Sacura speciosa,-,Serranidae,long_list,-,-,-
-327835,Saloptia powelli,-,Serranidae,long_list,sample_acquired,-,-
+327835,Saloptia powelli,-,Serranidae,long_list,data_generation,-,-
 1231074,Schultzea beta,-,Serranidae,long_list,-,-,-
 1522439,Selenanthias analis,-,Serranidae,long_list,-,-,-
 -,Selenanthias barroi,-,Serranidae,long_list,-,Selenanthias barroi,-
 -,Selenanthias myersi,-,Serranidae,long_list,-,Selenanthias myersi,-
 451892,Serraniculus pumilio,-,Serranidae,long_list,-,-,-
-587071,Serranocirrhitus latus,-,Serranidae,long_list,sample_acquired,-,-
+587071,Serranocirrhitus latus,-,Serranidae,long_list,data_generation,-,-
 206133,Serranus accraensis,-,Serranidae,long_list,-,-,-
 1955183,Serranus aequidens,-,Serranidae,long_list,-,-,-
 -,Serranus africanus,-,Serranidae,long_list,-,Serranus africanus,-
@@ -16996,7 +16996,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1609601,Ectreposebastes imus,-,Setarchidae,long_list,-,-,-
 2752708,Ectreposebastes niger,-,Setarchidae,long_list,-,-,-
 2578390,Lioscorpius longiceps,-,Setarchidae,long_list,-,-,-
--,Lioscorpius trifasciatus,-,Setarchidae,long_list,-,Lioscorpius trifasciatus,-
+-,Lioscorpius trifasciatus,-,Setarchidae,long_list,data_generation,Lioscorpius trifasciatus,-
 2841984,Lythrichthys cypho,-,Setarchidae,long_list,-,-,-
 -,Lythrichthys dentatus,-,Setarchidae,long_list,-,Lythrichthys dentatus,-
 -,Lythrichthys grahami,-,Setarchidae,long_list,-,Lythrichthys grahami,-
@@ -17488,7 +17488,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 1284703,Sphyrna gilberti,-,Sphyrnidae,long_list,-,-,-
 7823,Sphyrna lewini,-,Sphyrnidae,long_list,-,-,-
 714306,Sphyrna media,-,Sphyrnidae,long_list,-,-,-
-195334,Sphyrna mokarran,-,Sphyrnidae,long_list,data_generation,-,-
+195334,Sphyrna mokarran,-,Sphyrnidae,long_list,in_assembly,-,-
 7824,Sphyrna tiburo,-,Sphyrnidae,long_list,-,-,-
 661134,Sphyrna tudes,-,Sphyrnidae,long_list,-,-,-
 195335,Sphyrna zygaena,-,Sphyrnidae,long_list,-,-,-
@@ -17961,7 +17961,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 882837,Heterophotus ophistoma,-,Stomiidae,long_list,-,-,-
 314241,Idiacanthus antrostomus,-,Stomiidae,long_list,-,-,-
 1091421,Idiacanthus atlanticus,-,Stomiidae,long_list,-,-,-
-882817,Idiacanthus fasciola,-,Stomiidae,long_list,-,-,-
+882817,Idiacanthus fasciola,-,Stomiidae,long_list,data_generation,-,-
 -,Leptostomias analis,-,Stomiidae,long_list,-,Leptostomias analis,-
 -,Leptostomias bermudensis,-,Stomiidae,long_list,-,Leptostomias bermudensis,-
 2100592,Leptostomias bilobatus,-,Stomiidae,long_list,-,-,-
@@ -18420,7 +18420,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 -,Solegnathus naso,-,Syngnathidae,long_list,-,Solegnathus naso,-
 2830798,Solegnathus robustus,-,Syngnathidae,long_list,-,-,-
 1619166,Solegnathus spinosissimus,-,Syngnathidae,long_list,-,-,-
-161581,Stigmatopora argus,-,Syngnathidae,long_list,data_generation,-,-
+161581,Stigmatopora argus,-,Syngnathidae,long_list,in_assembly,-,-
 2590771,Stigmatopora harastii,-,Syngnathidae,long_list,-,-,-
 1095081,Stigmatopora macropterygia,-,Syngnathidae,long_list,-,-,-
 1095082,Stigmatopora narinosa,-,Syngnathidae,long_list,-,-,-
@@ -18543,7 +18543,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 2578359,Synodus tectus,-,Synodontidae,long_list,-,-,-
 197542,Synodus ulae,-,Synodontidae,long_list,-,-,-
 398659,Synodus usitatus,-,Synodontidae,long_list,-,-,-
-261076,Synodus variegatus,-,Synodontidae,long_list,sample_acquired,-,-
+261076,Synodus variegatus,-,Synodontidae,long_list,in_assembly,-,-
 -,Synodus vityazi,-,Synodontidae,long_list,-,Synodus vityazi,-
 -,Trachinocephalus atrisignis,-,Synodontidae,long_list,-,Trachinocephalus atrisignis,-
 2480070,Trachinocephalus gauguini,-,Synodontidae,long_list,-,-,-
@@ -18654,7 +18654,7 @@ ncbi_taxon_id,species,subspecies,family,target_list_status,sequencing_status,syn
 303751,Marilyna darwinii,-,Tetraodontidae,long_list,-,-,-
 -,Marilyna pleurosticta,-,Tetraodontidae,long_list,-,Marilyna pleurosticta,-
 862801,Omegophora armilla,-,Tetraodontidae,long_list,-,-,-
-1220769,Omegophora cyanopunctata,-,Tetraodontidae,long_list,data_generation,-,-
+1220769,Omegophora cyanopunctata,-,Tetraodontidae,long_list,in_assembly,-,-
 -,Pelagocephalus coheni,-,Tetraodontidae,long_list,-,Pelagocephalus coheni,-
 862803,Pelagocephalus marki,-,Tetraodontidae,long_list,-,-,-
 862797,Polyspina piosae,-,Tetraodontidae,long_list,-,-,-
