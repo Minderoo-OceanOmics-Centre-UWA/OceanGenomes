@@ -88,3 +88,10 @@ writeLines(
 ```{r}
 list.files("output")
 ```
+
+```{r}
+system("git add .")
+system('git commit -m "Auto update data files"')
+system("git push origin development")
+```
+
