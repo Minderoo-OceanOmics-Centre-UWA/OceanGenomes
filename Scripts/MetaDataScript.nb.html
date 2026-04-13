@@ -1773,16 +1773,24 @@ for Ocean Genomes species export</li>
 <h1>Step 1: Read the exported CSV from DBeaver</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-output-begin eyJkYXRhIjoiXG48IS0tIHJuYi1zb3VyY2UtYmVnaW4gZXlKa1lYUmhJam9pWUdCZ2NseHVjM0JsWTJsbGMxOWtZWFJoSUR3dElISmxZV1F1WTNOMktGeHVJQ0JjSW5Od1pXTnBaWE5mWjI5aGRGOWpiMjF3WVhScFlteGxMbU56ZGx3aUxGeHVJQ0J6ZEhKcGJtZHpRWE5HWVdOMGIzSnpJRDBnUmtGTVUwVmNiaWxjYm1CZ1lDSjkgLS0+XG5cbmBgYHJcbnNwZWNpZXNfZGF0YSA8LSByZWFkLmNzdihcbiAgXCJzcGVjaWVzX2dvYXRfY29tcGF0aWJsZS5jc3ZcIixcbiAgc3RyaW5nc0FzRmFjdG9ycyA9IEZBTFNFXG4pXG5gYGBcblxuPCEtLSBybmItc291cmNlLWVuZCAtLT5cbiJ9 -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3BlY2llc19kYXRhIDwtIHJlYWQuY3N2KFxuICBcInNwZWNpZXNfZ29hdF9jb21wYXRpYmxlLmNzdlwiLFxuICBzdHJpbmdzQXNGYWN0b3JzID0gRkFMU0VcbilcbmBgYCJ9 -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG48IS0tIHJuYi1zb3VyY2UtYmVnaW4gZXlKa1lYUmhJam9pWUdCZ2NseHVjM0JsWTJsbGMxOWtZWFJoSUR3dElISmxZV1F1WTNOMktGeHVJQ0JjSW5Od1pXTnBaWE5mWjI5aGRGOWpiMjF3WVhScFlteGxMbU56ZGx3aUxGeHVJQ0J6ZEhKcGJtZHpRWE5HWVdOMGIzSnpJRDBnUmtGTVUwVmNiaWxjYmx4dWFHVmhaQ2h6Y0dWamFXVnpYMlJoZEdFcFhHNWdZR0FpZlE9PSAtLT5cblxuYGBgclxuc3BlY2llc19kYXRhIDwtIHJlYWQuY3N2KFxuICBcInNwZWNpZXNfZ29hdF9jb21wYXRpYmxlLmNzdlwiLFxuICBzdHJpbmdzQXNGYWN0b3JzID0gRkFMU0VcbilcblxuaGVhZChzcGVjaWVzX2RhdGEpXG5gYGBcblxuPCEtLSBybmItc291cmNlLWVuZCAtLT5cbiJ9 -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3BlY2llc19kYXRhIDwtIHJlYWQuY3N2KFxuICBcInNwZWNpZXNfZ29hdF9jb21wYXRpYmxlLmNzdlwiLFxuICBzdHJpbmdzQXNGYWN0b3JzID0gRkFMU0VcbilcblxuaGVhZChzcGVjaWVzX2RhdGEpXG5gYGAifQ== -->
 <pre class="r"><code>species_data &lt;- read.csv(
   &quot;species_goat_compatible.csv&quot;,
   stringsAsFactors = FALSE
-)</code></pre>
+)
+
+head(species_data)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-output-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiV2FybmluZzogY2Fubm90IG9wZW4gZmlsZSAnc3BlY2llc19nb2F0X2NvbXBhdGlibGUuY3N2JzogTm8gc3VjaCBmaWxlIG9yIGRpcmVjdG9yeUVycm9yIGluIGZpbGUoZmlsZSwgXCJydFwiKSA6IGNhbm5vdCBvcGVuIHRoZSBjb25uZWN0aW9uXG4ifQ== -->
-<pre><code>Warning: cannot open file &#39;species_goat_compatible.csv&#39;: No such file or directoryError in file(file, &quot;rt&quot;) : cannot open the connection</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoiXG48IS0tIHJuYi1mcmFtZS1iZWdpbiBleUp0WlhSaFpHRjBZU0k2ZXlKamJHRnpjMlZ6SWpwYkltUmhkR0V1Wm5KaGJXVWlYU3dpYm5KdmR5STZOaXdpYm1OdmJDSTZOaXdpYzNWdGJXRnllU0k2ZXlKRVpYTmpjbWx3ZEdsdmJpSTZXeUprWmlCYk5pRERseUEyWFNKZGZYMHNJbkprWmlJNklrZzBjMGxCUVVGQlFVRkJRVUp5TVZSWVZTOURUVUpSZEVoNGRHaEZZVTVwV1c1NmVrUTBkM2RaU1VOUVNuTlpabGxFVkdocVpIZ3hRbEp3VEdreU1tNHJUMWwyVWpkMWVGUnlZalJaYjNjeVlWaHlkbEJVTWpNMU4yRXpPVGRsZW05VVpucEZSVWxPTVVoUllYRlBSVmxGZW0xUVJETm1LMFpMUm0welZHY3hNVVZVZEdST01tRlVWakZxZFVkaFpWcFBjMlZqUTJab1kwUjNZVFZzTkhKMVFqUlFkM1kzTUhsM01HMXZNMEpWZFUxT1p6TkJPRU5UZHpORFUxUnBNVzlFZFdVNVRVNUNWVVZ1Wm5aalNFRTVVM0ZTYVdKdlEzWkxTMDFGV2xaRU5UUmpVV2tyYVdGalF6RjVOMHhMUTJKUmFsZFJaMHRxYkc1NGVIVkRSMUo0Y1ZsWldHaE1NWHBpUlZKeVEycDNRV3B2Y2xGYVNWTlVhWEZoWVM4M1VHcEVURGQ1VDJGdVRWcENMMmxhV0ZCaWVsQkNiRE5PZWxVdmNIWkJjaXM0Y1RGS1dFOW9lbGR3YUM5TFMxUnpZMUl6VTNWWlUzWTBiazFoTWpsYVVuQkJWbkl3YW5GbFUzRkNlSGhHTjBOdE4wMHdLM05uWVRWS1JIQlVVRVpqWVdSUVNEaHdORzg0U2pSU2FtRjFja3BuWWt0dGRHaFRkbEJoZFhKWk1tSTVTRmRZUkhKWmNraEVTbEZXWWpST1pVUkNjRFpETW00MGVIUjBWa3RETW5nd1ZsSjNVVFp4Ym1ZNVIzQnJSM1Y1Uldwb1NtVkxiMnM1ZGtWeE5GVTVLMnRRTkhWTU9GQXpjelZQZG1KMGJFOTZObmd2TlV4clkyVXdSMFZNZVcwelNHVlJkMmxCYWt4dVYwNVVZMnhhZUdKNVRYQjBNaTkxYldGcWNXRmhTRUkzZGs5M1dVUmhVMFpaWkRKdUswSm1aU3RsUkVKQlFVRWlmUT09IC0tPlxuXG48ZGl2IGRhdGEtcGFnZWR0YWJsZT1cImZhbHNlXCI+XG4gIDxzY3JpcHQgZGF0YS1wYWdlZHRhYmxlLXNvdXJjZSB0eXBlPVwiYXBwbGljYXRpb24vanNvblwiPlxue1wiY29sdW1uc1wiOlt7XCJsYWJlbFwiOltcIlwiXSxcIm5hbWVcIjpbXCJfcm5fXCJdLFwidHlwZVwiOltcIlwiXSxcImFsaWduXCI6W1wibGVmdFwiXX0se1wibGFiZWxcIjpbXCJuY2JpX3RheG9uX2lkXCJdLFwibmFtZVwiOlsxXSxcInR5cGVcIjpbXCJjaHJcIl0sXCJhbGlnblwiOltcImxlZnRcIl19LHtcImxhYmVsXCI6W1wic3BlY2llc1wiXSxcIm5hbWVcIjpbMl0sXCJ0eXBlXCI6W1wiY2hyXCJdLFwiYWxpZ25cIjpbXCJsZWZ0XCJdfSx7XCJsYWJlbFwiOltcInN1YnNwZWNpZXNcIl0sXCJuYW1lXCI6WzNdLFwidHlwZVwiOltcImNoclwiXSxcImFsaWduXCI6W1wibGVmdFwiXX0se1wibGFiZWxcIjpbXCJmYW1pbHlcIl0sXCJuYW1lXCI6WzRdLFwidHlwZVwiOltcImNoclwiXSxcImFsaWduXCI6W1wibGVmdFwiXX0se1wibGFiZWxcIjpbXCJ0YXJnZXRfbGlzdF9zdGF0dXNcIl0sXCJuYW1lXCI6WzVdLFwidHlwZVwiOltcImNoclwiXSxcImFsaWduXCI6W1wibGVmdFwiXX0se1wibGFiZWxcIjpbXCJzZXF1ZW5jaW5nX3N0YXR1c1wiXSxcIm5hbWVcIjpbNl0sXCJ0eXBlXCI6W1wiY2hyXCJdLFwiYWxpZ25cIjpbXCJsZWZ0XCJdfV0sXCJkYXRhXCI6W3tcIjFcIjpcIjc1MzY0M1wiLFwiMlwiOlwiQWNhbnRodXJ1cyBhY2hpbGxlc1wiLFwiM1wiOlwiLVwiLFwiNFwiOlwiQWNhbnRodXJpZGFlXCIsXCI1XCI6XCJsb25nX2xpc3RcIixcIjZcIjpcIi1cIixcIl9ybl9cIjpcIjFcIn0se1wiMVwiOlwiMTk2MjUwOFwiLFwiMlwiOlwiQWNhbnRodXJ1cyBhbGJpbWVudG9cIixcIjNcIjpcIi1cIixcIjRcIjpcIkFjYW50aHVyaWRhZVwiLFwiNVwiOlwibG9uZ19saXN0XCIsXCI2XCI6XCItXCIsXCJfcm5fXCI6XCIyXCJ9LHtcIjFcIjpcIjE5MTc0NTRcIixcIjJcIjpcIkFjYW50aHVydXMgYWxiaXBlY3RvcmFsaXNcIixcIjNcIjpcIi1cIixcIjRcIjpcIkFjYW50aHVyaWRhZVwiLFwiNVwiOlwibG9uZ19saXN0XCIsXCI2XCI6XCItXCIsXCJfcm5fXCI6XCIzXCJ9LHtcIjFcIjpcIjEzMTYwMTFcIixcIjJcIjpcIkFjYW50aHVydXMgYXVyYW50aWNhdnVzXCIsXCIzXCI6XCItXCIsXCI0XCI6XCJBY2FudGh1cmlkYWVcIixcIjVcIjpcImxvbmdfbGlzdFwiLFwiNlwiOlwiLVwiLFwiX3JuX1wiOlwiNFwifSx7XCIxXCI6XCIxNTc1ODRcIixcIjJcIjpcIkFjYW50aHVydXMgYmFoaWFudXNcIixcIjNcIjpcIi1cIixcIjRcIjpcIkFjYW50aHVyaWRhZVwiLFwiNVwiOlwibG9uZ19saXN0XCIsXCI2XCI6XCItXCIsXCJfcm5fXCI6XCI1XCJ9LHtcIjFcIjpcIjY3MDUyMVwiLFwiMlwiOlwiQWNhbnRodXJ1cyBiYXJpZW5lXCIsXCIzXCI6XCItXCIsXCI0XCI6XCJBY2FudGh1cmlkYWVcIixcIjVcIjpcImxvbmdfbGlzdFwiLFwiNlwiOlwiLVwiLFwiX3JuX1wiOlwiNlwifV0sXCJvcHRpb25zXCI6e1wiY29sdW1uc1wiOntcIm1pblwiOnt9LFwibWF4XCI6WzEwXSxcInRvdGFsXCI6WzZdfSxcInJvd3NcIjp7XCJtaW5cIjpbMTBdLFwibWF4XCI6WzEwXSxcInRvdGFsXCI6WzZdfSxcInBhZ2VzXCI6e319fVxuICA8XC9zY3JpcHQ+XG48XC9kaXY+XG5cbjwhLS0gcm5iLWZyYW1lLWVuZCAtLT5cbiJ9 -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibnJvdyI6NiwibmNvbCI6Niwic3VtbWFyeSI6eyJEZXNjcmlwdGlvbiI6WyJkZiBbNiDDlyA2XSJdfX0sInJkZiI6Ikg0c0lBQUFBQUFBQUJyMVRYVS9DTUJRdEh4dGhFYU5pWW56ekQ0d3dZSUNQSnNZZllEVGhqZHgxQlJwTGkyMm4rT1l2Ujd1eFRyYjRZb3cyYVhydlBUMjM1N2EzOTdlem9UZnpFRUlOMUhRYXFPRVlFem1QRDNmK0ZLRm0zVGcxMUVUdGROMmFUVjFqdUdhZVpPc2VjQ2ZoY0R3YTVsNHJ1QjRQd3Y3MHl3MG1vM0JVdU1OZzNBOENTdzNDU1RpMW9EdWU5TU5CVUVuZnZjSEE5U3FSaWJvQ3ZLS01FWlZENTRjUWkraWFjQzF5N0xLQ2JRaldRZ0tqbG54eHVDR1J4cVlZWGhMMXpiRVJyQ2p3QWpvclFaSVNUaXFhYS83UGpETDd5T2FuTVpCL2laWFBielBCbDNOelUvcHZBcis4cTFKWE9oeldwaC9LS1RzY1IzU3VZU3Y0bk1hMjlaUnBBVnIwanFlU3FCeHhGN0NtN00wK3NnYTVKRHBUUEZjYWRQSDhwNG84SjRSamF1ckpnYkttdGhTdlBhdXJZMmI5SFdYRHJZckhESlFWYjROZURCcDZDMm40eHR0VktDMngwVlJ3UTZxbmY5R3BrR3V5RWpoSmVLb2s5dkVxNFU5K2tQNHVMOFAzczVPdmJ0bE96NngvNUxrY2UwR0VMeW0zSGVRd2lBakxuV05UY2xaeGJ5TXB0Mi91bWFqcWFhSEI3dk93WURhU0ZZZDJuK0JmZStlREJBQUEifQ== -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["ncbi_taxon_id"],"name":[1],"type":["chr"],"align":["left"]},{"label":["species"],"name":[2],"type":["chr"],"align":["left"]},{"label":["subspecies"],"name":[3],"type":["chr"],"align":["left"]},{"label":["family"],"name":[4],"type":["chr"],"align":["left"]},{"label":["target_list_status"],"name":[5],"type":["chr"],"align":["left"]},{"label":["sequencing_status"],"name":[6],"type":["chr"],"align":["left"]}],"data":[{"1":"753643","2":"Acanthurus achilles","3":"-","4":"Acanthuridae","5":"long_list","6":"-","_rn_":"1"},{"1":"1962508","2":"Acanthurus albimento","3":"-","4":"Acanthuridae","5":"long_list","6":"-","_rn_":"2"},{"1":"1917454","2":"Acanthurus albipectoralis","3":"-","4":"Acanthuridae","5":"long_list","6":"-","_rn_":"3"},{"1":"1316011","2":"Acanthurus auranticavus","3":"-","4":"Acanthuridae","5":"long_list","6":"-","_rn_":"4"},{"1":"157584","2":"Acanthurus bahianus","3":"-","4":"Acanthuridae","5":"long_list","6":"-","_rn_":"5"},{"1":"670521","2":"Acanthurus bariene","3":"-","4":"Acanthuridae","5":"long_list","6":"-","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10],"total":[6]},"rows":{"min":[10],"max":[10],"total":[6]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -1791,6 +1799,30 @@ for Ocean Genomes species export</li>
 <h1>Step 2: Create the 7 required header lines</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG48IS0tIHJuYi1zb3VyY2UtYmVnaW4gZXlKa1lYUmhJam9pWUdCZ2NseHVhR1ZoWkdWeVgyeHBibVZ6SUR3dElHTW9YRzRnSUZ3aUl5QndjbTlxWldOMFgyNWhiV1ZjWEhSUFIxd2lMRnh1SUNCY0lpTWdjM1ZpY0hKdmFtVmpkRjl1WVcxbFhGeDBYQ0lzWEc0Z0lGd2lJeUJ3Y21sdFlYSjVYMk52Ym5SaFkzUmNYSFJUYUdGdWJtOXVJRU52Y25KcFoyRnVYQ0lzWEc0Z0lGd2lJeUJ3Y21sdFlYSjVYMk52Ym5SaFkzUmZhVzV6ZEdsMGRYUnBiMjVjWEhSUFkyVmhiaUJIWlc1dmJXVnpJRTFwYm1SbGNtOXZJRTlqWldGdUlFOXRhV056SUVObGJuUnlaU0JoZENCVmJtbDJaWEp6YVhSNUlHOW1JRmRsYzNSbGNtNGdRWFZ6ZEhKaGJHbGhJRU55WVhkc1pYa2dVR1Z5ZEdnZ1FYVnpkSEpoYkdsaFhDSXNYRzRnSUZ3aUl5QndjbWx0WVhKNVgyTnZiblJoWTNSZlpXMWhhV3hjWEhSdlkyVmhibWRsYm05dFpYTkFkWGRoTG1Wa2RTNWhkVndpTEZ4dUlDQndZWE4wWlRBb1hDSWpJR1JoZEdWZmIyWmZkWEJrWVhSbFhGeDBYQ0lzSUdadmNtMWhkQ2hUZVhNdVJHRjBaU2dwTENCY0lpVlpMU1Z0TFNWa1hDSXBLU3hjYmlBZ1hDSWpJSE5qYUdWdFlWOTJaWEp6YVc5dVhGeDBaV0p3WDNOd1pXTnBaWE5mWjI5aGRGOHlMalpjSWx4dUtWeHVYRzVvWldGa1pYSmZiR2x1WlhOY2JtQmdZQ0o5IC0tPlxuXG5gYGByXG5oZWFkZXJfbGluZXMgPC0gYyhcbiAgXCIjIHByb2plY3RfbmFtZVxcdE9HXCIsXG4gIFwiIyBzdWJwcm9qZWN0X25hbWVcXHRcIixcbiAgXCIjIHByaW1hcnlfY29udGFjdFxcdFNoYW5ub24gQ29ycmlnYW5cIixcbiAgXCIjIHByaW1hcnlfY29udGFjdF9pbnN0aXR1dGlvblxcdE9jZWFuIEdlbm9tZXMgTWluZGVyb28gT2NlYW4gT21pY3MgQ2VudHJlIGF0IFVuaXZlcnNpdHkgb2YgV2VzdGVybiBBdXN0cmFsaWEgQ3Jhd2xleSBQZXJ0aCBBdXN0cmFsaWFcIixcbiAgXCIjIHByaW1hcnlfY29udGFjdF9lbWFpbFxcdG9jZWFuZ2Vub21lc0B1d2EuZWR1LmF1XCIsXG4gIHBhc3RlMChcIiMgZGF0ZV9vZl91cGRhdGVcXHRcIiwgZm9ybWF0KFN5cy5EYXRlKCksIFwiJVktJW0tJWRcIikpLFxuICBcIiMgc2NoZW1hX3ZlcnNpb25cXHRlYnBfc3BlY2llc19nb2F0XzIuNlwiXG4pXG5cbmhlYWRlcl9saW5lc1xuYGBgXG5cbjwhLS0gcm5iLXNvdXJjZS1lbmQgLS0+XG4ifQ== -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGVhZGVyX2xpbmVzIDwtIGMoXG4gIFwiIyBwcm9qZWN0X25hbWVcXHRPR1wiLFxuICBcIiMgc3VicHJvamVjdF9uYW1lXFx0XCIsXG4gIFwiIyBwcmltYXJ5X2NvbnRhY3RcXHRTaGFubm9uIENvcnJpZ2FuXCIsXG4gIFwiIyBwcmltYXJ5X2NvbnRhY3RfaW5zdGl0dXRpb25cXHRPY2VhbiBHZW5vbWVzIE1pbmRlcm9vIE9jZWFuIE9taWNzIENlbnRyZSBhdCBVbml2ZXJzaXR5IG9mIFdlc3Rlcm4gQXVzdHJhbGlhIENyYXdsZXkgUGVydGggQXVzdHJhbGlhXCIsXG4gIFwiIyBwcmltYXJ5X2NvbnRhY3RfZW1haWxcXHRvY2Vhbmdlbm9tZXNAdXdhLmVkdS5hdVwiLFxuICBwYXN0ZTAoXCIjIGRhdGVfb2ZfdXBkYXRlXFx0XCIsIGZvcm1hdChTeXMuRGF0ZSgpLCBcIiVZLSVtLSVkXCIpKSxcbiAgXCIjIHNjaGVtYV92ZXJzaW9uXFx0ZWJwX3NwZWNpZXNfZ29hdF8yLjZcIlxuKVxuXG5oZWFkZXJfbGluZXNcbmBgYCJ9 -->
+<pre class="r"><code>header_lines &lt;- c(
+  &quot;# project_name\tOG&quot;,
+  &quot;# subproject_name\t&quot;,
+  &quot;# primary_contact\tShannon Corrigan&quot;,
+  &quot;# primary_contact_institution\tOcean Genomes Minderoo Ocean Omics Centre at University of Western Australia Crawley Perth Australia&quot;,
+  &quot;# primary_contact_email\toceangenomes@uwa.edu.au&quot;,
+  paste0(&quot;# date_of_update\t&quot;, format(Sys.Date(), &quot;%Y-%m-%d&quot;)),
+  &quot;# schema_version\tebp_species_goat_2.6&quot;
+)
+
+header_lines</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiIyBwcm9qZWN0X25hbWVcXHRPR1wiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcblsyXSBcIiMgc3VicHJvamVjdF9uYW1lXFx0XCIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG5bM10gXCIjIHByaW1hcnlfY29udGFjdFxcdFNoYW5ub24gQ29ycmlnYW5cIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuWzRdIFwiIyBwcmltYXJ5X2NvbnRhY3RfaW5zdGl0dXRpb25cXHRPY2VhbiBHZW5vbWVzIE1pbmRlcm9vIE9jZWFuIE9taWNzIENlbnRyZSBhdCBVbml2ZXJzaXR5IG9mIFdlc3Rlcm4gQXVzdHJhbGlhIENyYXdsZXkgUGVydGggQXVzdHJhbGlhXCJcbls1XSBcIiMgcHJpbWFyeV9jb250YWN0X2VtYWlsXFx0b2NlYW5nZW5vbWVzQHV3YS5lZHUuYXVcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG5bNl0gXCIjIGRhdGVfb2ZfdXBkYXRlXFx0MjAyNi0wNC0wN1wiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuWzddIFwiIyBzY2hlbWFfdmVyc2lvblxcdGVicF9zcGVjaWVzX2dvYXRfMi42XCIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiJ9 -->
+<pre><code>[1] &quot;# project_name\tOG&quot;                                                                                                                 
+[2] &quot;# subproject_name\t&quot;                                                                                                                
+[3] &quot;# primary_contact\tShannon Corrigan&quot;                                                                                                
+[4] &quot;# primary_contact_institution\tOcean Genomes Minderoo Ocean Omics Centre at University of Western Australia Crawley Perth Australia&quot;
+[5] &quot;# primary_contact_email\toceangenomes@uwa.edu.au&quot;                                                                                   
+[6] &quot;# date_of_update\t2026-04-07&quot;                                                                                                       
+[7] &quot;# schema_version\tebp_species_goat_2.6&quot;                                                                                             </code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1798,6 +1830,16 @@ for Ocean Genomes species export</li>
 <h1>Step 3: Create the 8-column header row</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG48IS0tIHJuYi1zb3VyY2UtYmVnaW4gZXlKa1lYUmhJam9pWUdCZ2NseHVZMjlzZFcxdVgyaGxZV1JsY2lBOExTQndZWE4wWlNoamIyeHVZVzFsY3loemNHVmphV1Z6WDJSaGRHRXBMQ0JqYjJ4c1lYQnpaU0E5SUZ3aVhGeDBYQ0lwWEc1Y2JtTnZiSFZ0Ymw5b1pXRmtaWEpjYm1CZ1lDSjkgLS0+XG5cbmBgYHJcbmNvbHVtbl9oZWFkZXIgPC0gcGFzdGUoY29sbmFtZXMoc3BlY2llc19kYXRhKSwgY29sbGFwc2UgPSBcIlxcdFwiKVxuXG5jb2x1bW5faGVhZGVyXG5gYGBcblxuPCEtLSBybmItc291cmNlLWVuZCAtLT5cbiJ9 -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY29sdW1uX2hlYWRlciA8LSBwYXN0ZShjb2xuYW1lcyhzcGVjaWVzX2RhdGEpLCBjb2xsYXBzZSA9IFwiXFx0XCIpXG5cbmNvbHVtbl9oZWFkZXJcbmBgYCJ9 -->
+<pre class="r"><code>column_header &lt;- paste(colnames(species_data), collapse = &quot;\t&quot;)
+
+column_header</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwibmNiaV90YXhvbl9pZFxcdHNwZWNpZXNcXHRzdWJzcGVjaWVzXFx0ZmFtaWx5XFx0dGFyZ2V0X2xpc3Rfc3RhdHVzXFx0c2VxdWVuY2luZ19zdGF0dXNcIlxuIn0= -->
+<pre><code>[1] &quot;ncbi_taxon_id\tspecies\tsubspecies\tfamily\ttarget_list_status\tsequencing_status&quot;</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1805,6 +1847,23 @@ for Ocean Genomes species export</li>
 <h1>Step 4: Convert all data rows into tab-separated lines</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG48IS0tIHJuYi1zb3VyY2UtYmVnaW4gZXlKa1lYUmhJam9pWUdCZ2NseHVaR0YwWVY5c2FXNWxjeUE4TFNCaGNIQnNlU2h6Y0dWamFXVnpYMlJoZEdFc0lERXNJR1oxYm1OMGFXOXVLSGdwSUh0Y2JpQWdjR0Z6ZEdVb2VDd2dZMjlzYkdGd2MyVWdQU0JjSWx4Y2RGd2lLVnh1ZlNsY2JseHVhR1ZoWkNoa1lYUmhYMnhwYm1WektWeHVZR0JnSW4wPSAtLT5cblxuYGBgclxuZGF0YV9saW5lcyA8LSBhcHBseShzcGVjaWVzX2RhdGEsIDEsIGZ1bmN0aW9uKHgpIHtcbiAgcGFzdGUoeCwgY29sbGFwc2UgPSBcIlxcdFwiKVxufSlcblxuaGVhZChkYXRhX2xpbmVzKVxuYGBgXG5cbjwhLS0gcm5iLXNvdXJjZS1lbmQgLS0+XG4ifQ== -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGF0YV9saW5lcyA8LSBhcHBseShzcGVjaWVzX2RhdGEsIDEsIGZ1bmN0aW9uKHgpIHtcbiAgcGFzdGUoeCwgY29sbGFwc2UgPSBcIlxcdFwiKVxufSlcblxuaGVhZChkYXRhX2xpbmVzKVxuYGBgIn0= -->
+<pre class="r"><code>data_lines &lt;- apply(species_data, 1, function(x) {
+  paste(x, collapse = &quot;\t&quot;)
+})
+
+head(data_lines)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiNzUzNjQzXFx0QWNhbnRodXJ1cyBhY2hpbGxlc1xcdC1cXHRBY2FudGh1cmlkYWVcXHRsb25nX2xpc3RcXHQtXCIgICAgICAgXG5bMl0gXCIxOTYyNTA4XFx0QWNhbnRodXJ1cyBhbGJpbWVudG9cXHQtXFx0QWNhbnRodXJpZGFlXFx0bG9uZ19saXN0XFx0LVwiICAgICBcblszXSBcIjE5MTc0NTRcXHRBY2FudGh1cnVzIGFsYmlwZWN0b3JhbGlzXFx0LVxcdEFjYW50aHVyaWRhZVxcdGxvbmdfbGlzdFxcdC1cIlxuWzRdIFwiMTMxNjAxMVxcdEFjYW50aHVydXMgYXVyYW50aWNhdnVzXFx0LVxcdEFjYW50aHVyaWRhZVxcdGxvbmdfbGlzdFxcdC1cIiAgXG5bNV0gXCIxNTc1ODRcXHRBY2FudGh1cnVzIGJhaGlhbnVzXFx0LVxcdEFjYW50aHVyaWRhZVxcdGxvbmdfbGlzdFxcdC1cIiAgICAgICBcbls2XSBcIjY3MDUyMVxcdEFjYW50aHVydXMgYmFyaWVuZVxcdC1cXHRBY2FudGh1cmlkYWVcXHRsb25nX2xpc3RcXHQtXCIgICAgICAgIFxuIn0= -->
+<pre><code>[1] &quot;753643\tAcanthurus achilles\t-\tAcanthuridae\tlong_list\t-&quot;       
+[2] &quot;1962508\tAcanthurus albimento\t-\tAcanthuridae\tlong_list\t-&quot;     
+[3] &quot;1917454\tAcanthurus albipectoralis\t-\tAcanthuridae\tlong_list\t-&quot;
+[4] &quot;1316011\tAcanthurus auranticavus\t-\tAcanthuridae\tlong_list\t-&quot;  
+[5] &quot;157584\tAcanthurus bahianus\t-\tAcanthuridae\tlong_list\t-&quot;       
+[6] &quot;670521\tAcanthurus bariene\t-\tAcanthuridae\tlong_list\t-&quot;        </code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1812,6 +1871,25 @@ for Ocean Genomes species export</li>
 <h1>Step 5: Combine header + column names + data</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG48IS0tIHJuYi1zb3VyY2UtYmVnaW4gZXlKa1lYUmhJam9pWUdCZ2NseHVabWx1WVd4ZmIzVjBjSFYwSUR3dElHTW9hR1ZoWkdWeVgyeHBibVZ6TENCamIyeDFiVzVmYUdWaFpHVnlMQ0JrWVhSaFgyeHBibVZ6S1Z4dVhHNW9aV0ZrS0dacGJtRnNYMjkxZEhCMWRDd2dNVEFwWEc1Z1lHQWlmUT09IC0tPlxuXG5gYGByXG5maW5hbF9vdXRwdXQgPC0gYyhoZWFkZXJfbGluZXMsIGNvbHVtbl9oZWFkZXIsIGRhdGFfbGluZXMpXG5cbmhlYWQoZmluYWxfb3V0cHV0LCAxMClcbmBgYFxuXG48IS0tIHJuYi1zb3VyY2UtZW5kIC0tPlxuIn0= -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmluYWxfb3V0cHV0IDwtIGMoaGVhZGVyX2xpbmVzLCBjb2x1bW5faGVhZGVyLCBkYXRhX2xpbmVzKVxuXG5oZWFkKGZpbmFsX291dHB1dCwgMTApXG5gYGAifQ== -->
+<pre class="r"><code>final_output &lt;- c(header_lines, column_header, data_lines)
+
+head(final_output, 10)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiIFsxXSBcIiMgcHJvamVjdF9uYW1lXFx0T0dcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gWzJdIFwiIyBzdWJwcm9qZWN0X25hbWVcXHRcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiBbM10gXCIjIHByaW1hcnlfY29udGFjdFxcdFNoYW5ub24gQ29ycmlnYW5cIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuIFs0XSBcIiMgcHJpbWFyeV9jb250YWN0X2luc3RpdHV0aW9uXFx0T2NlYW4gR2Vub21lcyBNaW5kZXJvbyBPY2VhbiBPbWljcyBDZW50cmUgYXQgVW5pdmVyc2l0eSBvZiBXZXN0ZXJuIEF1c3RyYWxpYSBDcmF3bGV5IFBlcnRoIEF1c3RyYWxpYVwiXG4gWzVdIFwiIyBwcmltYXJ5X2NvbnRhY3RfZW1haWxcXHRvY2Vhbmdlbm9tZXNAdXdhLmVkdS5hdVwiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiBbNl0gXCIjIGRhdGVfb2ZfdXBkYXRlXFx0MjAyNi0wNC0wN1wiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuIFs3XSBcIiMgc2NoZW1hX3ZlcnNpb25cXHRlYnBfc3BlY2llc19nb2F0XzIuNlwiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gWzhdIFwibmNiaV90YXhvbl9pZFxcdHNwZWNpZXNcXHRzdWJzcGVjaWVzXFx0ZmFtaWx5XFx0dGFyZ2V0X2xpc3Rfc3RhdHVzXFx0c2VxdWVuY2luZ19zdGF0dXNcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gWzldIFwiNzUzNjQzXFx0QWNhbnRodXJ1cyBhY2hpbGxlc1xcdC1cXHRBY2FudGh1cmlkYWVcXHRsb25nX2xpc3RcXHQtXCIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG5bMTBdIFwiMTk2MjUwOFxcdEFjYW50aHVydXMgYWxiaW1lbnRvXFx0LVxcdEFjYW50aHVyaWRhZVxcdGxvbmdfbGlzdFxcdC1cIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4ifQ== -->
+<pre><code> [1] &quot;# project_name\tOG&quot;                                                                                                                 
+ [2] &quot;# subproject_name\t&quot;                                                                                                                
+ [3] &quot;# primary_contact\tShannon Corrigan&quot;                                                                                                
+ [4] &quot;# primary_contact_institution\tOcean Genomes Minderoo Ocean Omics Centre at University of Western Australia Crawley Perth Australia&quot;
+ [5] &quot;# primary_contact_email\toceangenomes@uwa.edu.au&quot;                                                                                   
+ [6] &quot;# date_of_update\t2026-04-07&quot;                                                                                                       
+ [7] &quot;# schema_version\tebp_species_goat_2.6&quot;                                                                                             
+ [8] &quot;ncbi_taxon_id\tspecies\tsubspecies\tfamily\ttarget_list_status\tsequencing_status&quot;                                                  
+ [9] &quot;753643\tAcanthurus achilles\t-\tAcanthuridae\tlong_list\t-&quot;                                                                         
+[10] &quot;1962508\tAcanthurus albimento\t-\tAcanthuridae\tlong_list\t-&quot;                                                                       </code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1819,30 +1897,40 @@ for Ocean Genomes species export</li>
 <h1>Step 6: Create output folder</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG48IS0tIHJuYi1zb3VyY2UtYmVnaW4gZXlKa1lYUmhJam9pWUdCZ2NseHVhV1lnS0NGa2FYSXVaWGhwYzNSektGd2liM1YwY0hWMFhDSXBLU0I3WEc0Z0lHUnBjaTVqY21WaGRHVW9YQ0p2ZFhSd2RYUmNJaWxjYm4xY2JseHVaR2x5TG1WNGFYTjBjeWhjSW05MWRIQjFkRndpS1Z4dVlHQmdJbjA9IC0tPlxuXG5gYGByXG5pZiAoIWRpci5leGlzdHMoXCJvdXRwdXRcIikpIHtcbiAgZGlyLmNyZWF0ZShcIm91dHB1dFwiKVxufVxuXG5kaXIuZXhpc3RzKFwib3V0cHV0XCIpXG5gYGBcblxuPCEtLSBybmItc291cmNlLWVuZCAtLT5cbiJ9 -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaWYgKCFkaXIuZXhpc3RzKFwib3V0cHV0XCIpKSB7XG4gIGRpci5jcmVhdGUoXCJvdXRwdXRcIilcbn1cblxuZGlyLmV4aXN0cyhcIm91dHB1dFwiKVxuYGBgIn0= -->
+<pre class="r"><code>if (!dir.exists(&quot;output&quot;)) {
+  dir.create(&quot;output&quot;)
+}
+
+dir.exists(&quot;output&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFRSVUVcbiJ9 -->
+<pre><code>[1] TRUE</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
-<div id="step-7-save-goat-ready-tsv-file-main-final-file" class="section level1">
-<h1>Step 7: Save GoaT-ready TSV file (main final file)</h1>
+<div id="save-final-goat-csv-in-project-root-outside-scripts-folder" class="section level1">
+<h1>Save final GoaT CSV in project root (outside Scripts folder)</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG48IS0tIHJuYi1zb3VyY2UtYmVnaW4gZXlKa1lYUmhJam9pWUdCZ2NseHVkM0pwZEdWTWFXNWxjeWhjYmlBZ1ozTjFZaWhjSWx4Y2RGd2lMQ0JjSWl4Y0lpd2dabWx1WVd4ZmIzVjBjSFYwS1N4Y2JpQWdYQ0l1TGk5UFIxOXpjR1ZqYVdWelgyZHZZWFF1WTNOMlhDSmNiaWxjYmx4dUl5QkRhR1ZqYXlCbWFXeGxJR055WldGMFpXUmNibVpwYkdVdVpYaHBjM1J6S0Z3aUxpNHZUMGRmYzNCbFkybGxjMTluYjJGMExtTnpkbHdpS1Z4dVlHQmdJbjA9IC0tPlxuXG5gYGByXG53cml0ZUxpbmVzKFxuICBnc3ViKFwiXFx0XCIsIFwiLFwiLCBmaW5hbF9vdXRwdXQpLFxuICBcIi4uL09HX3NwZWNpZXNfZ29hdC5jc3ZcIlxuKVxuXG4jIENoZWNrIGZpbGUgY3JlYXRlZFxuZmlsZS5leGlzdHMoXCIuLi9PR19zcGVjaWVzX2dvYXQuY3N2XCIpXG5gYGBcblxuPCEtLSBybmItc291cmNlLWVuZCAtLT5cbiJ9 -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGVMaW5lcyhcbiAgZ3N1YihcIlxcdFwiLCBcIixcIiwgZmluYWxfb3V0cHV0KSxcbiAgXCIuLi9PR19zcGVjaWVzX2dvYXQuY3N2XCJcbilcblxuIyBDaGVjayBmaWxlIGNyZWF0ZWRcbmZpbGUuZXhpc3RzKFwiLi4vT0dfc3BlY2llc19nb2F0LmNzdlwiKVxuYGBgIn0= -->
+<pre class="r"><code>writeLines(
+  gsub(&quot;\t&quot;, &quot;,&quot;, final_output),
+  &quot;../OG_species_goat.csv&quot;
+)
+
+# Check file created
+file.exists(&quot;../OG_species_goat.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFRSVUVcbiJ9 -->
+<pre><code>[1] TRUE</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-<div id="step-8-save-a-normal-csv-for-excel-review" class="section level1">
-<h1>Step 8: Save a normal CSV for Excel review</h1>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-<div id="step-9-check-saved-files" class="section level1">
-<h1>Step 9: Check saved files</h1>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-output-begin eyJkYXRhIjoiXG48IS0tIHJuYi1zb3VyY2UtYmVnaW4gZXlKa1lYUmhJam9pWUdCZ2NseHVjM2x6ZEdWdEtGd2laMmwwSUdGa1pDQXVYQ0lwWEc1Z1lHQWlmUT09IC0tPlxuXG5gYGByXG5zeXN0ZW0oXCJnaXQgYWRkIC5cIilcbmBgYFxuXG48IS0tIHJuYi1zb3VyY2UtZW5kIC0tPlxuIn0= -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3lzdGVtKFwiZ2l0IGFkZCAuXCIpXG5gYGAifQ== -->
@@ -1883,7 +1971,7 @@ no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&q
 <!-- rnb-text-end -->
 </div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIk9HIEdvYVQgRmlsZSBCdWlsZGVyIg0KYXV0aG9yOiAiQW51c2hrYSBTLiBEaXNzbmFheWFrYSBNLiINCmRhdGU6ICIyMDI2LTAzLTMxIg0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KIyMgU2NyaXB0IEluZm9ybWF0aW9uDQotICoqQ3JlYXRlZCBieToqKiBBbnVzaGthIFMuIERpc3NuYWF5YWthIE0uICANCi0gKipDcmVhdGVkIGRhdGU6KiogMjAyNi0wMy0zMSAgDQotICoqTGFzdCB1cGRhdGVkOioqIGByIFN5cy5EYXRlKClgICANCi0gKipQdXJwb3NlOioqIEJ1aWxkIEdvYVQtY29tcGF0aWJsZSBUU1YgYW5kIENTViBmaWxlcyBmb3IgT2NlYW4gR2Vub21lcyBzcGVjaWVzIGV4cG9ydA0KDQojIFN0ZXAgMTogUmVhZCB0aGUgZXhwb3J0ZWQgQ1NWIGZyb20gREJlYXZlcg0KYGBge3J9DQpzcGVjaWVzX2RhdGEgPC0gcmVhZC5jc3YoDQogICJzcGVjaWVzX2dvYXRfY29tcGF0aWJsZS5jc3YiLA0KICBzdHJpbmdzQXNGYWN0b3JzID0gRkFMU0UNCikNCg0KaGVhZChzcGVjaWVzX2RhdGEpDQpgYGANCg0KIyBTdGVwIDI6IENyZWF0ZSB0aGUgNyByZXF1aXJlZCBoZWFkZXIgbGluZXMNCmBgYHtyfQ0KaGVhZGVyX2xpbmVzIDwtIGMoDQogICIjIHByb2plY3RfbmFtZVx0T0ciLA0KICAiIyBzdWJwcm9qZWN0X25hbWVcdCIsDQogICIjIHByaW1hcnlfY29udGFjdFx0U2hhbm5vbiBDb3JyaWdhbiIsDQogICIjIHByaW1hcnlfY29udGFjdF9pbnN0aXR1dGlvblx0T2NlYW4gR2Vub21lcyBNaW5kZXJvbyBPY2VhbiBPbWljcyBDZW50cmUgYXQgVW5pdmVyc2l0eSBvZiBXZXN0ZXJuIEF1c3RyYWxpYSBDcmF3bGV5IFBlcnRoIEF1c3RyYWxpYSIsDQogICIjIHByaW1hcnlfY29udGFjdF9lbWFpbFx0b2NlYW5nZW5vbWVzQHV3YS5lZHUuYXUiLA0KICBwYXN0ZTAoIiMgZGF0ZV9vZl91cGRhdGVcdCIsIGZvcm1hdChTeXMuRGF0ZSgpLCAiJVktJW0tJWQiKSksDQogICIjIHNjaGVtYV92ZXJzaW9uXHRlYnBfc3BlY2llc19nb2F0XzIuNiINCikNCg0KaGVhZGVyX2xpbmVzDQpgYGANCg0KIyBTdGVwIDM6IENyZWF0ZSB0aGUgOC1jb2x1bW4gaGVhZGVyIHJvdw0KYGBge3J9DQpjb2x1bW5faGVhZGVyIDwtIHBhc3RlKGNvbG5hbWVzKHNwZWNpZXNfZGF0YSksIGNvbGxhcHNlID0gIlx0IikNCg0KY29sdW1uX2hlYWRlcg0KYGBgDQoNCiMgU3RlcCA0OiBDb252ZXJ0IGFsbCBkYXRhIHJvd3MgaW50byB0YWItc2VwYXJhdGVkIGxpbmVzDQpgYGB7cn0NCmRhdGFfbGluZXMgPC0gYXBwbHkoc3BlY2llc19kYXRhLCAxLCBmdW5jdGlvbih4KSB7DQogIHBhc3RlKHgsIGNvbGxhcHNlID0gIlx0IikNCn0pDQoNCmhlYWQoZGF0YV9saW5lcykNCmBgYA0KDQojIFN0ZXAgNTogQ29tYmluZSBoZWFkZXIgKyBjb2x1bW4gbmFtZXMgKyBkYXRhDQpgYGB7cn0NCmZpbmFsX291dHB1dCA8LSBjKGhlYWRlcl9saW5lcywgY29sdW1uX2hlYWRlciwgZGF0YV9saW5lcykNCg0KaGVhZChmaW5hbF9vdXRwdXQsIDEwKQ0KYGBgDQoNCiMgU3RlcCA2OiBDcmVhdGUgb3V0cHV0IGZvbGRlcg0KYGBge3J9DQppZiAoIWRpci5leGlzdHMoIm91dHB1dCIpKSB7DQogIGRpci5jcmVhdGUoIm91dHB1dCIpDQp9DQoNCmRpci5leGlzdHMoIm91dHB1dCIpDQpgYGANCg0KIyBTdGVwIDc6IFNhdmUgR29hVC1yZWFkeSBUU1YgZmlsZSAobWFpbiBmaW5hbCBmaWxlKQ0KYGBge3J9DQp3cml0ZUxpbmVzKA0KICBmaW5hbF9vdXRwdXQsDQogICJvdXRwdXQvT0dfc3BlY2llc19nb2F0LnRzdiINCikNCmBgYA0KDQojIFN0ZXAgODogU2F2ZSBhIG5vcm1hbCBDU1YgZm9yIEV4Y2VsIHJldmlldw0KYGBge3J9DQojIFN0ZXAgODogU2F2ZSBmdWxsIEdvYVQgZmlsZSBhcyBDU1Ygd2l0aCA3IGhlYWRlciByb3dzDQp3cml0ZUxpbmVzKA0KICBnc3ViKCJcdCIsICIsIiwgZmluYWxfb3V0cHV0KSwNCiAgIm91dHB1dC9PR19zcGVjaWVzX2dvYXQuY3N2Ig0KKQ0KYGBgDQojIFN0ZXAgOTogQ2hlY2sgc2F2ZWQgZmlsZXMNCmBgYHtyfQ0KbGlzdC5maWxlcygib3V0cHV0IikNCmBgYA0KDQpgYGB7cn0NCnN5c3RlbSgiZ2l0IGFkZCAuIikNCnN5c3RlbSgnZ2l0IGNvbW1pdCAtbSAiQXV0byB1cGRhdGUgZGF0YSBmaWxlcyInKQ0Kc3lzdGVtKCJnaXQgcHVzaCBvcmlnaW4gZGV2ZWxvcG1lbnQiKQ0KYGBgDQoNCg==</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIk9HIEdvYVQgRmlsZSBCdWlsZGVyIg0KYXV0aG9yOiAiQW51c2hrYSBTLiBEaXNzbmFheWFrYSBNLiINCmRhdGU6ICIyMDI2LTAzLTMxIg0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KIyMgU2NyaXB0IEluZm9ybWF0aW9uDQotICoqQ3JlYXRlZCBieToqKiBBbnVzaGthIFMuIERpc3NuYWF5YWthIE0uICANCi0gKipDcmVhdGVkIGRhdGU6KiogMjAyNi0wMy0zMSAgDQotICoqTGFzdCB1cGRhdGVkOioqIGByIFN5cy5EYXRlKClgICANCi0gKipQdXJwb3NlOioqIEJ1aWxkIEdvYVQtY29tcGF0aWJsZSBUU1YgYW5kIENTViBmaWxlcyBmb3IgT2NlYW4gR2Vub21lcyBzcGVjaWVzIGV4cG9ydA0KDQojIFN0ZXAgMTogUmVhZCB0aGUgZXhwb3J0ZWQgQ1NWIGZyb20gREJlYXZlcg0KYGBge3J9DQpzcGVjaWVzX2RhdGEgPC0gcmVhZC5jc3YoDQogICJzcGVjaWVzX2dvYXRfY29tcGF0aWJsZS5jc3YiLA0KICBzdHJpbmdzQXNGYWN0b3JzID0gRkFMU0UNCikNCg0KaGVhZChzcGVjaWVzX2RhdGEpDQpgYGANCg0KIyBTdGVwIDI6IENyZWF0ZSB0aGUgNyByZXF1aXJlZCBoZWFkZXIgbGluZXMNCmBgYHtyfQ0KaGVhZGVyX2xpbmVzIDwtIGMoDQogICIjIHByb2plY3RfbmFtZVx0T0ciLA0KICAiIyBzdWJwcm9qZWN0X25hbWVcdCIsDQogICIjIHByaW1hcnlfY29udGFjdFx0U2hhbm5vbiBDb3JyaWdhbiIsDQogICIjIHByaW1hcnlfY29udGFjdF9pbnN0aXR1dGlvblx0T2NlYW4gR2Vub21lcyBNaW5kZXJvbyBPY2VhbiBPbWljcyBDZW50cmUgYXQgVW5pdmVyc2l0eSBvZiBXZXN0ZXJuIEF1c3RyYWxpYSBDcmF3bGV5IFBlcnRoIEF1c3RyYWxpYSIsDQogICIjIHByaW1hcnlfY29udGFjdF9lbWFpbFx0b2NlYW5nZW5vbWVzQHV3YS5lZHUuYXUiLA0KICBwYXN0ZTAoIiMgZGF0ZV9vZl91cGRhdGVcdCIsIGZvcm1hdChTeXMuRGF0ZSgpLCAiJVktJW0tJWQiKSksDQogICIjIHNjaGVtYV92ZXJzaW9uXHRlYnBfc3BlY2llc19nb2F0XzIuNiINCikNCg0KaGVhZGVyX2xpbmVzDQpgYGANCg0KIyBTdGVwIDM6IENyZWF0ZSB0aGUgOC1jb2x1bW4gaGVhZGVyIHJvdw0KYGBge3J9DQpjb2x1bW5faGVhZGVyIDwtIHBhc3RlKGNvbG5hbWVzKHNwZWNpZXNfZGF0YSksIGNvbGxhcHNlID0gIlx0IikNCg0KY29sdW1uX2hlYWRlcg0KYGBgDQoNCiMgU3RlcCA0OiBDb252ZXJ0IGFsbCBkYXRhIHJvd3MgaW50byB0YWItc2VwYXJhdGVkIGxpbmVzDQpgYGB7cn0NCmRhdGFfbGluZXMgPC0gYXBwbHkoc3BlY2llc19kYXRhLCAxLCBmdW5jdGlvbih4KSB7DQogIHBhc3RlKHgsIGNvbGxhcHNlID0gIlx0IikNCn0pDQoNCmhlYWQoZGF0YV9saW5lcykNCmBgYA0KDQojIFN0ZXAgNTogQ29tYmluZSBoZWFkZXIgKyBjb2x1bW4gbmFtZXMgKyBkYXRhDQpgYGB7cn0NCmZpbmFsX291dHB1dCA8LSBjKGhlYWRlcl9saW5lcywgY29sdW1uX2hlYWRlciwgZGF0YV9saW5lcykNCg0KaGVhZChmaW5hbF9vdXRwdXQsIDEwKQ0KYGBgDQoNCiMgU3RlcCA2OiBDcmVhdGUgb3V0cHV0IGZvbGRlcg0KYGBge3J9DQppZiAoIWRpci5leGlzdHMoIm91dHB1dCIpKSB7DQogIGRpci5jcmVhdGUoIm91dHB1dCIpDQp9DQoNCmRpci5leGlzdHMoIm91dHB1dCIpDQpgYGANCg0KIyBTYXZlIGZpbmFsIEdvYVQgQ1NWIGluIHByb2plY3Qgcm9vdCAob3V0c2lkZSBTY3JpcHRzIGZvbGRlcikNCmBgYHtyfQ0Kd3JpdGVMaW5lcygNCiAgZ3N1YigiXHQiLCAiLCIsIGZpbmFsX291dHB1dCksDQogICIuLi9PR19zcGVjaWVzX2dvYXQuY3N2Ig0KKQ0KDQojIENoZWNrIGZpbGUgY3JlYXRlZA0KZmlsZS5leGlzdHMoIi4uL09HX3NwZWNpZXNfZ29hdC5jc3YiKQ0KYGBgDQpgYGB7cn0NCnN5c3RlbSgiZ2l0IGFkZCAuIikNCnN5c3RlbSgnZ2l0IGNvbW1pdCAtbSAiQXV0byB1cGRhdGUgZGF0YSBmaWxlcyInKQ0Kc3lzdGVtKCJnaXQgcHVzaCBvcmlnaW4gZGV2ZWxvcG1lbnQiKQ0KYGBgDQoNCg==</div>
 
 
 

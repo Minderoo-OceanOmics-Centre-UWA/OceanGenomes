@@ -68,27 +68,16 @@ if (!dir.exists("output")) {
 dir.exists("output")
 ```
 
-# Step 7: Save GoaT-ready TSV file (main final file)
+# Save final GoaT CSV in project root (outside Scripts folder)
 ```{r}
-writeLines(
-  final_output,
-  "output/OG_species_goat.tsv"
-)
-```
-
-# Step 8: Save a normal CSV for Excel review
-```{r}
-# Step 8: Save full GoaT file as CSV with 7 header rows
 writeLines(
   gsub("\t", ",", final_output),
-  "output/OG_species_goat.csv"
+  "../OG_species_goat.csv"
 )
-```
-# Step 9: Check saved files
-```{r}
-list.files("output")
-```
 
+# Check file created
+file.exists("../OG_species_goat.csv")
+```
 ```{r}
 system("git add .")
 system('git commit -m "Auto update data files"')
