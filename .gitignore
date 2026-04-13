@@ -6,6 +6,9 @@
 .RData
 .RDataTmp
 
+# Script Folder
+script/
+
 # User-specific files
 .Ruserdata
 
